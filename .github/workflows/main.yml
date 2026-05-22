@@ -1,3 +1,4 @@
+
 name: QA API Tests
 
 on:
@@ -10,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Descargar código
+      - name: Checkout código
         uses: actions/checkout@v3
 
       - name: Instalar Node
@@ -27,12 +28,11 @@ jobs:
         continue-on-error: true
         run: |
           newman run AgrupadorBFF_collection.json \
-          -e qa_env.json \
-          -d dataDetalle.csv \
-          -r cli,htmlextra \
-          --reporter-htmlextra-export reporte.html
-         continue-on-error: true
-       
+            -e qa_env.json \
+            -d DataDetalle.csv \
+            -r cli,htmlextra \
+            --reporter-htmlextra-export reporte.html
+
       - name: Guardar reporte
         uses: actions/upload-artifact@v3
         with:
