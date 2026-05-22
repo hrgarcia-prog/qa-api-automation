@@ -38,7 +38,7 @@ jobs:
 
       - name: Crear reporte manual
         run: |
-          echo "<html><body><h1>Reporte QA</h1><p>Tests ejecutados correctamente. 
+          echo "<html><body><h1>Reporte QA BFF</h1><p>Tests ejecutados correctamente. 
           Revisar consola para detalles.</p></body></html>" > reporte.html
           
       - name: Guardar reporte
