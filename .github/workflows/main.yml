@@ -34,7 +34,7 @@ jobs:
             --reporter-htmlextra-export reporte.html
 
       - name: Guardar reporte
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: reporte-qa
           path: reporte.html
