@@ -30,3 +30,9 @@ jobs:
           -d dataDetalle.csv \
           -r cli,htmlextra \
           --reporter-htmlextra-export reporte.html
+       
+      - name: Guardar reporte
+        uses: actions/upload-artifact@v3
+        with:
+          name: reporte-qa
+          path: reporte.html
