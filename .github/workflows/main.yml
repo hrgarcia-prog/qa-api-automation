@@ -30,11 +30,9 @@ jobs:
           newman run AgrupadorBFF_collection.json \
             -e qa_env.json \
             -d DataDetalle.csv \
-            -r cli,htmlextra \
-            --reporter-htmlextra-export reporte.html\
-            --reporter-htmlextra-export-dir .
-
-            
+            -r cli,html \
+            --reporter-html-export reporte.html
+                   
       - name: Verificar archivo
         run: ls -la
 
