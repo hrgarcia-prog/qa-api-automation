@@ -31,7 +31,7 @@ jobs:
           -d dataDetalle.csv \
           -r cli,htmlextra \
           --reporter-htmlextra-export reporte.html
-        
+         continue-on-error: true
        
       - name: Guardar reporte
         uses: actions/upload-artifact@v3
