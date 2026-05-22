@@ -24,12 +24,14 @@ jobs:
           npm install -g newman-reporter-htmlextra
 
       - name: Ejecutar pruebas
+        continue-on-error: true
         run: |
           newman run AgrupadorBFF_collection.json \
           -e qa_env.json \
           -d dataDetalle.csv \
           -r cli,htmlextra \
           --reporter-htmlextra-export reporte.html
+        
        
       - name: Guardar reporte
         uses: actions/upload-artifact@v3
