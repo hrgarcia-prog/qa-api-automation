@@ -31,8 +31,13 @@ jobs:
             -e qa_env.json \
             -d DataDetalle.csv \
             -r cli,htmlextra \
-            --reporter-htmlextra-export ./reporte.html
+            --reporter-htmlextra-export reporte.html\
+            --reporter-htmlextra-export-dir .
+
             
+      - name: Verificar archivo
+        run: ls -la
+
       - name: Guardar reporte
         uses: actions/upload-artifact@v4
         with:
