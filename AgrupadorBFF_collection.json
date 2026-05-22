@@ -1,0 +1,1923 @@
+{
+  "info": {
+    "_postman_id": "ad25b9af-8b9b-4b71-b8a4-dfa485f7f8e7",
+    "name": "Agrupdor BFF Finantial groups",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "47012827",
+    "_collection_link": "https://go.postman.co/collection/47012827-ad25b9af-8b9b-4b71-b8a4-dfa485f7f8e7?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET GROUPS AND BALANCE Colombia Uat",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {
+          "connection": true,
+          "accept-encoding": true,
+          "accept": true,
+          "user-agent": true
+        }
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "X-Channel",
+            "value": "Apple iOS",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-Commerce",
+            "value": "Banco",
+            "type": "text"
+          },
+          {
+            "key": "X-Country",
+            "value": "CO",
+            "type": "text"
+          },
+          {
+            "key": "User-Agent",
+            "value": "Fallabela/202304191630 CFNetwork/1402.0.8 Darwin/21.6.0",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-authenticated-userid",
+            "value": "eyJmaXNydE5hbWUiOiJQRURSTyBNSUdVRUwiLCJsYXN0TmFtZSI6IlBFUkVaIiwiY291bnRyeSI6IkNPIiwiYWRkcmVzcyI6IkV5emFndWlycmUiLCJkaXN0cmljdENvZGUiOiIyODciLCJhZGRyZXNzVHlwZSI6IjEiLCJjaXR5Q29kZSI6IjI4NyIsImNoYW5uZWwiOiJBcHBsZSBpT1MiLCJpZGVudGlmaWNhdGlvblR5cGUiOiIxIiwic2Vzc2lvbklkIjoiU0VTU0lPTl8yIiwiY29tbWVyY2UiOiJCYW5jbyIsImJpcnRoRGF0ZSI6IjE5OTItMDQtMDgiLCJzZXhDb2RlIjoiRiIsInJlZ2lvbkNvZGUiOiIxMyIsImlkZW50aWZpY2F0aW9uTnVtYmVyIjoiMTAwMDE3ODciLCJsYXN0TmFtZTIiOiJHT05aQUxFWiIsImVtYWlsIjoiZmlncGVuYWdAZmFsYWJlbGxhLmNsIn0=",
+            "description": "Data de session en base64, si requiere cambiar el dni hacerlo aqui",
+            "type": "text"
+          },
+          {
+            "key": "x-app-version",
+            "value": "20.0.0",
+            "type": "text"
+          },
+          {
+            "key": "x-customer-hash",
+            "value": "10001787_hash",
+            "type": "text"
+          },
+          {
+            "key": "X-Authorization",
+            "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkVBeXJ6SjdXZ1o0bjVSb3ZWamZjYWZzT3djTTNUa0pzRXBhd3FwcEZHVmc9IiwidHlwIjoiSldUIn0.eyJlbWFpbCI6IkNPUlJFT1BydWViYUBGQUxBQkVMTEEuQ0wiLCJzdXJuYW1lIjoiQVBFTExJRE9QQVQiLCJhZGRpdGlvbmFsU3VybmFtZSI6IkFQRUxMSURPTUFUIiwibmFtZXMiOiJKVUFOIExVQ0FTIiwiZG9jdW1lbnRUeXBlIjoiUlVUIiwiZG9jdW1lbnROdW1iZXIiOiIyMjM0NjA4NzkiLCJzZXNzaW9uSWQiOiIzRTYxQTdEQUYzNzc1NkRCQzMwNTcxRUFEQzA0MTY1QyIsImlzcyI6Imh0dHBzOi8vZ2F0ZXdheS1hcGktY2wtZ2NwLXNhd2VzdC0xLXVhdC1jaGlsZS1jZGF1eC5iZmNsLW5wLWdjcC1hbGZhLXNhd2VzdDEtcHJlcHJvZC5maWYudGVjaC9maWZjbC92MiIsImV4cCI6MTc1MTMxMDk0OCwiaWF0IjoxNzUxMzEwNjQ4fQ.pzq2t2q6zw7VLM8QdkWpQ7EmaoYofW_nOjYX2FaEbFO_9MNPfgqfewje3M9C_Ul5QMiFV_a-C9k5xjop1mFSno-5d8_W-qBjlpAizVqSIPqlhuyM9APEOS_IEpIyGIJDbewtJw0-ySjJPyxQLRUjACRoaXPsWqGwGw6jR_Yx3-xsxL2CcOk88bzoEf9h3UJ0fg2HOTy0yCS1i02-Cj0HUxJ3zu5ayHHGr8i50aoT4DqiM3brQu7AD60rSn7Rp8lJSkUlR0X5LYVuv5rcCRyGera0pBR02IFA_Tpb23woVM8J4qdP4g1DnK8TayW8SY2qe4jOqlvMx0xpc2DsM6cSvw",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-request-id",
+            "value": "1b679244-e95e-4062-9282-4583376b20da",
+            "type": "text"
+          },
+          {
+            "key": "cf-connecting-ip",
+            "value": "127.0.0.1",
+            "type": "text"
+          },
+          {
+            "key": "x-session-id",
+            "value": "SOME_SESSION_ID",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-app-platform",
+            "value": "NULL",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\":\"SAVING_DAP\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://financial-product-groups-bff-any-liability-group-uat-colo-xfwvt.bfco-np-alfa-preprod.fif.tech/liability-group/v1/get-products",
+          "protocol": "https",
+          "host": [
+            "financial-product-groups-bff-any-liability-group-uat-colo-xfwvt",
+            "bfco-np-alfa-preprod",
+            "fif",
+            "tech"
+          ],
+          "path": [
+            "liability-group",
+            "v1",
+            "get-products"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Example resp local",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-Channel",
+                "value": "Apple iOS",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-Commerce",
+                "value": "Banco",
+                "type": "text"
+              },
+              {
+                "key": "X-Country",
+                "value": "CO",
+                "type": "text"
+              },
+              {
+                "key": "User-Agent",
+                "value": "Fallabela/202304191630 CFNetwork/1402.0.8 Darwin/21.6.0",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-authenticated-userid",
+                "value": "eyJmaXNydE5hbWUiOiJQRURSTyBNSUdVRUwiLCJsYXN0TmFtZSI6IlBFUkVaIiwiY291bnRyeSI6IkNPIiwiYWRkcmVzcyI6IkV5emFndWlycmUiLCJkaXN0cmljdENvZGUiOiIyODciLCJhZGRyZXNzVHlwZSI6IjEiLCJjaXR5Q29kZSI6IjI4NyIsImNoYW5uZWwiOiJBcHBsZSBpT1MiLCJpZGVudGlmaWNhdGlvblR5cGUiOiIxIiwic2Vzc2lvbklkIjoiU0VTU0lPTl8yIiwiY29tbWVyY2UiOiJCYW5jbyIsImJpcnRoRGF0ZSI6IjE5OTItMDQtMDgiLCJzZXhDb2RlIjoiRiIsInJlZ2lvbkNvZGUiOiIxMyIsImlkZW50aWZpY2F0aW9uTnVtYmVyIjoiMTAwMDE3ODciLCJsYXN0TmFtZTIiOiJHT05aQUxFWiIsImVtYWlsIjoiZmlncGVuYWdAZmFsYWJlbGxhLmNsIn0=",
+                "type": "text"
+              },
+              {
+                "key": "x-app-version",
+                "value": "20.0.0",
+                "type": "text"
+              },
+              {
+                "key": "x-customer-hash",
+                "value": "10001787_hash",
+                "type": "text"
+              },
+              {
+                "key": "X-Authorization",
+                "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkVBeXJ6SjdXZ1o0bjVSb3ZWamZjYWZzT3djTTNUa0pzRXBhd3FwcEZHVmc9IiwidHlwIjoiSldUIn0.eyJlbWFpbCI6IkNPUlJFT1BydWViYUBGQUxBQkVMTEEuQ0wiLCJzdXJuYW1lIjoiQVBFTExJRE9QQVQiLCJhZGRpdGlvbmFsU3VybmFtZSI6IkFQRUxMSURPTUFUIiwibmFtZXMiOiJKVUFOIExVQ0FTIiwiZG9jdW1lbnRUeXBlIjoiUlVUIiwiZG9jdW1lbnROdW1iZXIiOiIyMjM0NjA4NzkiLCJzZXNzaW9uSWQiOiIzRTYxQTdEQUYzNzc1NkRCQzMwNTcxRUFEQzA0MTY1QyIsImlzcyI6Imh0dHBzOi8vZ2F0ZXdheS1hcGktY2wtZ2NwLXNhd2VzdC0xLXVhdC1jaGlsZS1jZGF1eC5iZmNsLW5wLWdjcC1hbGZhLXNhd2VzdDEtcHJlcHJvZC5maWYudGVjaC9maWZjbC92MiIsImV4cCI6MTc1MTMxMDk0OCwiaWF0IjoxNzUxMzEwNjQ4fQ.pzq2t2q6zw7VLM8QdkWpQ7EmaoYofW_nOjYX2FaEbFO_9MNPfgqfewje3M9C_Ul5QMiFV_a-C9k5xjop1mFSno-5d8_W-qBjlpAizVqSIPqlhuyM9APEOS_IEpIyGIJDbewtJw0-ySjJPyxQLRUjACRoaXPsWqGwGw6jR_Yx3-xsxL2CcOk88bzoEf9h3UJ0fg2HOTy0yCS1i02-Cj0HUxJ3zu5ayHHGr8i50aoT4DqiM3brQu7AD60rSn7Rp8lJSkUlR0X5LYVuv5rcCRyGera0pBR02IFA_Tpb23woVM8J4qdP4g1DnK8TayW8SY2qe4jOqlvMx0xpc2DsM6cSvw",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-request-id",
+                "value": "1b679244-e95e-4062-9282-4583376b20da",
+                "type": "text"
+              },
+              {
+                "key": "cf-connecting-ip",
+                "value": "127.0.0.1",
+                "type": "text"
+              },
+              {
+                "key": "x-session-id",
+                "value": "SOME_SESSION_ID",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-app-platform",
+                "value": "NULL",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\":\"2\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/liability-group/v1/get-products",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "liability-group",
+                "v1",
+                "get-products"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "content-length",
+              "value": "4259"
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 31 Dec 2025 14:59:44 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=72"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"payload\": {\n        \"balanceTotal\": [\n            {\n                \"amount\": 2545658,\n                \"currency\": \"COP\",\n                \"SAVING\": 0,\n                \"CHECKING\": 0,\n                \"PERSONALOAN\": 0,\n                \"CREDITCARD\": 0,\n                \"CDT\": 1272829,\n                \"CDAT\": 1272829\n            }\n        ],\n        \"productsGrouped\": [\n            {\n                \"type\": \"CDAT\",\n                \"groupTitle\": \"Certificado Depósito de Ahorro a Término\",\n                \"productSubtitle\": \"Invertido\",\n                \"deeplink\": \"deeplinks3\",\n                \"cardType\": null,\n                \"tapCard\": {\n                    \"analytics\": {\n                        \"element\": \"stringelement6\",\n                        \"action\": \"stringaction6\",\n                        \"location\": \"stringlocation6\",\n                        \"flow\": \"stringflow6\"\n                    }\n                },\n                \"products\": [\n                    {\n                        \"accountNumber\": \"106079\",\n                        \"productType\": \"5\",\n                        \"productSubtype\": \"50\",\n                        \"productName\": \"term-deposits\",\n                        \"balances\": [\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CDAT\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Vence el 2015/05/25\",\n                        \"headerBackgroundColor\": \"#a9b1bb\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"CDT\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"106072\",\n                        \"productType\": \"5\",\n                        \"productSubtype\": \"95\",\n                        \"productName\": \"term-deposits\",\n                        \"balances\": [\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CDT\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Vence el 2015/05/25\",\n                        \"headerBackgroundColor\": \"#a8b1bb\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"SAVING\",\n                \"groupTitle\": \"Alcancías\",\n                \"productSubtitle\": \"Ahorrado\",\n                \"deeplink\": \"deeplinks1\",\n                \"cardType\": null,\n                \"tapCard\": {\n                    \"analytics\": {\n                        \"element\": \"stringelement4\",\n                        \"action\": \"stringaction4\",\n                        \"location\": \"stringlocation4\",\n                        \"flow\": \"stringflow4\"\n                    }\n                },\n                \"products\": [\n                    {\n                        \"accountNumber\": \"420700014339\",\n                        \"productType\": \"2\",\n                        \"productSubtype\": \"20\",\n                        \"productName\": \"saving-accounts\",\n                        \"balances\": [\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"COP\"\n                            }\n                        ],\n                        \"purpose\": \"Alcancía\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Alcancías\",\n                        \"headerBackgroundColor\": \"#3b9326\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"CHECKING\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"420700014339\",\n                        \"productType\": \"7\",\n                        \"productSubtype\": \"21\",\n                        \"productName\": \"cheking-acounts\",\n                        \"balances\": [\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"Prueba Cuenta PAC Test\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Vence el 2015/05/25\",\n                        \"headerBackgroundColor\": \"\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"PERSONALOAN\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"201040255523\",\n                        \"productType\": \"3\",\n                        \"productSubtype\": \"30\",\n                        \"productName\": \"personal-loans\",\n                        \"balances\": [\n                            {\n                                \"amount\": 166400,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 166400,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CREDITO EN CUOTAS\",\n                        \"Icon\": \"\",\n                        \"isActive\": true,\n                        \"productTitle\": \"\",\n                        \"headerBackgroundColor\": \"\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"CREDITCARD\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"01720062300000109278\",\n                        \"productType\": \"1\",\n                        \"productSubtype\": \"050002\",\n                        \"productName\": \"credit-card\",\n                        \"balances\": [\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CREDITCARD\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"\",\n                        \"headerBackgroundColor\": \"\"\n                    }\n                ]\n            }\n        ],\n        \"analytics\": {\n            \"funnelStepViewed\": {\n                \"funnelStepCardGrouped\": {\n                    \"funnelName\": \"card_agrupador_productos\",\n                    \"funnelStepName\": \"ver_detalle\",\n                    \"assystType\": \"autoasistido\",\n                    \"cardPermaLink\": \"tipo_objetivo_ahorro\"\n                },\n                \"funnelStepGroupedSaving\": {\n                    \"funnelName\": \"agrupacion_ahorro_inversion\",\n                    \"funnelStepName\": \"agrupador\",\n                    \"assystType\": \"autoasistido\"\n                }\n            },\n            \"pageLocation\": {\n                \"pageLocation\": \"detalle_agrupador\",\n                \"pageTitle\": \"ahorro e inversión\"\n            }\n        },\n        \"actions\": [\n            {\n                \"position\": 1,\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement3\",\n                    \"action\": \"stringaction3\",\n                    \"location\": \"stringlocation3\",\n                    \"flow\": \"stringflow3\"\n                }\n            },\n            {\n                \"position\": 4,\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement11\",\n                    \"action\": \"stringaction11\",\n                    \"location\": \"stringlocation11\",\n                    \"flow\": \"stringflow11\"\n                }\n            },\n            {\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement1\",\n                    \"action\": \"stringaction1\",\n                    \"location\": \"stringlocation1\",\n                    \"flow\": \"stringflow1\"\n                }\n            },\n            {\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement6\",\n                    \"action\": \"stringaction6\",\n                    \"location\": \"stringlocation6\",\n                    \"flow\": \"stringflow6\"\n                }\n            }\n        ],\n        \"titleButtonActions\": null\n    }\n}"
+        }
+      ]
+    },
+    {
+      "name": "GET GROUPS AND BALANCE Colombia Prod",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {
+          "connection": true,
+          "accept-encoding": true,
+          "accept": true,
+          "user-agent": true
+        }
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "X-Channel",
+            "value": "Apple iOS",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-Commerce",
+            "value": "Banco",
+            "type": "text"
+          },
+          {
+            "key": "X-Country",
+            "value": "CO",
+            "type": "text"
+          },
+          {
+            "key": "User-Agent",
+            "value": "Fallabela/202304191630 CFNetwork/1402.0.8 Darwin/21.6.0",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-authenticated-userid",
+            "value": "eyJmaXNydE5hbWUiOiJQRURSTyBNSUdVRUwiLCJsYXN0TmFtZSI6IlBFUkVaIiwiY291bnRyeSI6IkNPIiwiYWRkcmVzcyI6IkV5emFndWlycmUiLCJkaXN0cmljdENvZGUiOiIyODciLCJhZGRyZXNzVHlwZSI6IjEiLCJjaXR5Q29kZSI6IjI4NyIsImNoYW5uZWwiOiJBcHBsZSBpT1MiLCJpZGVudGlmaWNhdGlvblR5cGUiOiIxIiwic2Vzc2lvbklkIjoiU0VTU0lPTl8yIiwiY29tbWVyY2UiOiJCYW5jbyIsImJpcnRoRGF0ZSI6IjE5OTItMDQtMDgiLCJzZXhDb2RlIjoiRiIsInJlZ2lvbkNvZGUiOiIxMyIsImlkZW50aWZpY2F0aW9uTnVtYmVyIjoiMTAyMDg0NTA4OCIsImxhc3ROYW1lMiI6IkdPTlpBTEVaIiwiZW1haWwiOiJmaWdwZW5hZ0BmYWxhYmVsbGEuY2wifQ==",
+            "description": "Data de session en base64, si requiere cambiar el dni hacerlo aqui",
+            "type": "text"
+          },
+          {
+            "key": "x-app-version",
+            "value": "20.0.0",
+            "type": "text"
+          },
+          {
+            "key": "x-customer-hash",
+            "value": "10001787_hash",
+            "type": "text"
+          },
+          {
+            "key": "X-Authorization",
+            "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkVBeXJ6SjdXZ1o0bjVSb3ZWamZjYWZzT3djTTNUa0pzRXBhd3FwcEZHVmc9IiwidHlwIjoiSldUIn0.eyJlbWFpbCI6IkNPUlJFT1BydWViYUBGQUxBQkVMTEEuQ0wiLCJzdXJuYW1lIjoiQVBFTExJRE9QQVQiLCJhZGRpdGlvbmFsU3VybmFtZSI6IkFQRUxMSURPTUFUIiwibmFtZXMiOiJKVUFOIExVQ0FTIiwiZG9jdW1lbnRUeXBlIjoiUlVUIiwiZG9jdW1lbnROdW1iZXIiOiIyMjM0NjA4NzkiLCJzZXNzaW9uSWQiOiIzRTYxQTdEQUYzNzc1NkRCQzMwNTcxRUFEQzA0MTY1QyIsImlzcyI6Imh0dHBzOi8vZ2F0ZXdheS1hcGktY2wtZ2NwLXNhd2VzdC0xLXVhdC1jaGlsZS1jZGF1eC5iZmNsLW5wLWdjcC1hbGZhLXNhd2VzdDEtcHJlcHJvZC5maWYudGVjaC9maWZjbC92MiIsImV4cCI6MTc1MTMxMDk0OCwiaWF0IjoxNzUxMzEwNjQ4fQ.pzq2t2q6zw7VLM8QdkWpQ7EmaoYofW_nOjYX2FaEbFO_9MNPfgqfewje3M9C_Ul5QMiFV_a-C9k5xjop1mFSno-5d8_W-qBjlpAizVqSIPqlhuyM9APEOS_IEpIyGIJDbewtJw0-ySjJPyxQLRUjACRoaXPsWqGwGw6jR_Yx3-xsxL2CcOk88bzoEf9h3UJ0fg2HOTy0yCS1i02-Cj0HUxJ3zu5ayHHGr8i50aoT4DqiM3brQu7AD60rSn7Rp8lJSkUlR0X5LYVuv5rcCRyGera0pBR02IFA_Tpb23woVM8J4qdP4g1DnK8TayW8SY2qe4jOqlvMx0xpc2DsM6cSvw",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-request-id",
+            "value": "1b679244-e95e-4062-9282-4583376b20da",
+            "type": "text"
+          },
+          {
+            "key": "cf-connecting-ip",
+            "value": "127.0.0.1",
+            "type": "text"
+          },
+          {
+            "key": "x-session-id",
+            "value": "SOME_SESSION_ID",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-app-platform",
+            "value": "NULL",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\":\"SAVING_DAP\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://financial-product-groups-bff-any-liability-group-prod-col-yctvv.bfco-np-alfa-prod.fif.tech/liability-group/v1/get-products",
+          "protocol": "https",
+          "host": [
+            "financial-product-groups-bff-any-liability-group-prod-col-yctvv",
+            "bfco-np-alfa-prod",
+            "fif",
+            "tech"
+          ],
+          "path": [
+            "liability-group",
+            "v1",
+            "get-products"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Example resp local",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-Channel",
+                "value": "Apple iOS",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-Commerce",
+                "value": "Banco",
+                "type": "text"
+              },
+              {
+                "key": "X-Country",
+                "value": "CO",
+                "type": "text"
+              },
+              {
+                "key": "User-Agent",
+                "value": "Fallabela/202304191630 CFNetwork/1402.0.8 Darwin/21.6.0",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-authenticated-userid",
+                "value": "eyJmaXNydE5hbWUiOiJQRURSTyBNSUdVRUwiLCJsYXN0TmFtZSI6IlBFUkVaIiwiY291bnRyeSI6IkNPIiwiYWRkcmVzcyI6IkV5emFndWlycmUiLCJkaXN0cmljdENvZGUiOiIyODciLCJhZGRyZXNzVHlwZSI6IjEiLCJjaXR5Q29kZSI6IjI4NyIsImNoYW5uZWwiOiJBcHBsZSBpT1MiLCJpZGVudGlmaWNhdGlvblR5cGUiOiIxIiwic2Vzc2lvbklkIjoiU0VTU0lPTl8yIiwiY29tbWVyY2UiOiJCYW5jbyIsImJpcnRoRGF0ZSI6IjE5OTItMDQtMDgiLCJzZXhDb2RlIjoiRiIsInJlZ2lvbkNvZGUiOiIxMyIsImlkZW50aWZpY2F0aW9uTnVtYmVyIjoiMTAwMDE3ODciLCJsYXN0TmFtZTIiOiJHT05aQUxFWiIsImVtYWlsIjoiZmlncGVuYWdAZmFsYWJlbGxhLmNsIn0=",
+                "type": "text"
+              },
+              {
+                "key": "x-app-version",
+                "value": "20.0.0",
+                "type": "text"
+              },
+              {
+                "key": "x-customer-hash",
+                "value": "10001787_hash",
+                "type": "text"
+              },
+              {
+                "key": "X-Authorization",
+                "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkVBeXJ6SjdXZ1o0bjVSb3ZWamZjYWZzT3djTTNUa0pzRXBhd3FwcEZHVmc9IiwidHlwIjoiSldUIn0.eyJlbWFpbCI6IkNPUlJFT1BydWViYUBGQUxBQkVMTEEuQ0wiLCJzdXJuYW1lIjoiQVBFTExJRE9QQVQiLCJhZGRpdGlvbmFsU3VybmFtZSI6IkFQRUxMSURPTUFUIiwibmFtZXMiOiJKVUFOIExVQ0FTIiwiZG9jdW1lbnRUeXBlIjoiUlVUIiwiZG9jdW1lbnROdW1iZXIiOiIyMjM0NjA4NzkiLCJzZXNzaW9uSWQiOiIzRTYxQTdEQUYzNzc1NkRCQzMwNTcxRUFEQzA0MTY1QyIsImlzcyI6Imh0dHBzOi8vZ2F0ZXdheS1hcGktY2wtZ2NwLXNhd2VzdC0xLXVhdC1jaGlsZS1jZGF1eC5iZmNsLW5wLWdjcC1hbGZhLXNhd2VzdDEtcHJlcHJvZC5maWYudGVjaC9maWZjbC92MiIsImV4cCI6MTc1MTMxMDk0OCwiaWF0IjoxNzUxMzEwNjQ4fQ.pzq2t2q6zw7VLM8QdkWpQ7EmaoYofW_nOjYX2FaEbFO_9MNPfgqfewje3M9C_Ul5QMiFV_a-C9k5xjop1mFSno-5d8_W-qBjlpAizVqSIPqlhuyM9APEOS_IEpIyGIJDbewtJw0-ySjJPyxQLRUjACRoaXPsWqGwGw6jR_Yx3-xsxL2CcOk88bzoEf9h3UJ0fg2HOTy0yCS1i02-Cj0HUxJ3zu5ayHHGr8i50aoT4DqiM3brQu7AD60rSn7Rp8lJSkUlR0X5LYVuv5rcCRyGera0pBR02IFA_Tpb23woVM8J4qdP4g1DnK8TayW8SY2qe4jOqlvMx0xpc2DsM6cSvw",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-request-id",
+                "value": "1b679244-e95e-4062-9282-4583376b20da",
+                "type": "text"
+              },
+              {
+                "key": "cf-connecting-ip",
+                "value": "127.0.0.1",
+                "type": "text"
+              },
+              {
+                "key": "x-session-id",
+                "value": "SOME_SESSION_ID",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-app-platform",
+                "value": "NULL",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\":\"2\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/liability-group/v1/get-products",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "liability-group",
+                "v1",
+                "get-products"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "content-length",
+              "value": "4259"
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 31 Dec 2025 14:59:44 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=72"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"payload\": {\n        \"balanceTotal\": [\n            {\n                \"amount\": 2545658,\n                \"currency\": \"COP\",\n                \"SAVING\": 0,\n                \"CHECKING\": 0,\n                \"PERSONALOAN\": 0,\n                \"CREDITCARD\": 0,\n                \"CDT\": 1272829,\n                \"CDAT\": 1272829\n            }\n        ],\n        \"productsGrouped\": [\n            {\n                \"type\": \"CDAT\",\n                \"groupTitle\": \"Certificado Depósito de Ahorro a Término\",\n                \"productSubtitle\": \"Invertido\",\n                \"deeplink\": \"deeplinks3\",\n                \"cardType\": null,\n                \"tapCard\": {\n                    \"analytics\": {\n                        \"element\": \"stringelement6\",\n                        \"action\": \"stringaction6\",\n                        \"location\": \"stringlocation6\",\n                        \"flow\": \"stringflow6\"\n                    }\n                },\n                \"products\": [\n                    {\n                        \"accountNumber\": \"106079\",\n                        \"productType\": \"5\",\n                        \"productSubtype\": \"50\",\n                        \"productName\": \"term-deposits\",\n                        \"balances\": [\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CDAT\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Vence el 2015/05/25\",\n                        \"headerBackgroundColor\": \"#a9b1bb\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"CDT\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"106072\",\n                        \"productType\": \"5\",\n                        \"productSubtype\": \"95\",\n                        \"productName\": \"term-deposits\",\n                        \"balances\": [\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CDT\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Vence el 2015/05/25\",\n                        \"headerBackgroundColor\": \"#a8b1bb\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"SAVING\",\n                \"groupTitle\": \"Alcancías\",\n                \"productSubtitle\": \"Ahorrado\",\n                \"deeplink\": \"deeplinks1\",\n                \"cardType\": null,\n                \"tapCard\": {\n                    \"analytics\": {\n                        \"element\": \"stringelement4\",\n                        \"action\": \"stringaction4\",\n                        \"location\": \"stringlocation4\",\n                        \"flow\": \"stringflow4\"\n                    }\n                },\n                \"products\": [\n                    {\n                        \"accountNumber\": \"420700014339\",\n                        \"productType\": \"2\",\n                        \"productSubtype\": \"20\",\n                        \"productName\": \"saving-accounts\",\n                        \"balances\": [\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"COP\"\n                            }\n                        ],\n                        \"purpose\": \"Alcancía\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Alcancías\",\n                        \"headerBackgroundColor\": \"#3b9326\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"CHECKING\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"420700014339\",\n                        \"productType\": \"7\",\n                        \"productSubtype\": \"21\",\n                        \"productName\": \"cheking-acounts\",\n                        \"balances\": [\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"Prueba Cuenta PAC Test\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Vence el 2015/05/25\",\n                        \"headerBackgroundColor\": \"\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"PERSONALOAN\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"201040255523\",\n                        \"productType\": \"3\",\n                        \"productSubtype\": \"30\",\n                        \"productName\": \"personal-loans\",\n                        \"balances\": [\n                            {\n                                \"amount\": 166400,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 166400,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CREDITO EN CUOTAS\",\n                        \"Icon\": \"\",\n                        \"isActive\": true,\n                        \"productTitle\": \"\",\n                        \"headerBackgroundColor\": \"\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"CREDITCARD\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"01720062300000109278\",\n                        \"productType\": \"1\",\n                        \"productSubtype\": \"050002\",\n                        \"productName\": \"credit-card\",\n                        \"balances\": [\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CREDITCARD\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"\",\n                        \"headerBackgroundColor\": \"\"\n                    }\n                ]\n            }\n        ],\n        \"analytics\": {\n            \"funnelStepViewed\": {\n                \"funnelStepCardGrouped\": {\n                    \"funnelName\": \"card_agrupador_productos\",\n                    \"funnelStepName\": \"ver_detalle\",\n                    \"assystType\": \"autoasistido\",\n                    \"cardPermaLink\": \"tipo_objetivo_ahorro\"\n                },\n                \"funnelStepGroupedSaving\": {\n                    \"funnelName\": \"agrupacion_ahorro_inversion\",\n                    \"funnelStepName\": \"agrupador\",\n                    \"assystType\": \"autoasistido\"\n                }\n            },\n            \"pageLocation\": {\n                \"pageLocation\": \"detalle_agrupador\",\n                \"pageTitle\": \"ahorro e inversión\"\n            }\n        },\n        \"actions\": [\n            {\n                \"position\": 1,\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement3\",\n                    \"action\": \"stringaction3\",\n                    \"location\": \"stringlocation3\",\n                    \"flow\": \"stringflow3\"\n                }\n            },\n            {\n                \"position\": 4,\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement11\",\n                    \"action\": \"stringaction11\",\n                    \"location\": \"stringlocation11\",\n                    \"flow\": \"stringflow11\"\n                }\n            },\n            {\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement1\",\n                    \"action\": \"stringaction1\",\n                    \"location\": \"stringlocation1\",\n                    \"flow\": \"stringflow1\"\n                }\n            },\n            {\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement6\",\n                    \"action\": \"stringaction6\",\n                    \"location\": \"stringlocation6\",\n                    \"flow\": \"stringflow6\"\n                }\n            }\n        ],\n        \"titleButtonActions\": null\n    }\n}"
+        }
+      ]
+    },
+    {
+      "name": "GET GROUPS AND BALANCE Chile Uat",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {
+          "connection": true,
+          "accept-encoding": true,
+          "accept": true,
+          "user-agent": true
+        }
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "X-Channel",
+            "value": "Apple iOS",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-Commerce",
+            "value": "Banco",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "X-Country",
+            "value": "CL",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "User-Agent",
+            "value": "Fallabela/202304191630 CFNetwork/1402.0.8 Darwin/21.6.0",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-authenticated-userid",
+            "value": "eyJmaXNydE5hbWUiOiJQRURSTyBNSUdVRUwiLCJsYXN0TmFtZSI6IlBFUkVaIiwiY291bnRyeSI6IkNMIiwiYWRkcmVzcyI6IkV5emFndWlycmUiLCJkaXN0cmljdENvZGUiOiIyODciLCJhZGRyZXNzVHlwZSI6IjEiLCJjaXR5Q29kZSI6IjI4NyIsImNoYW5uZWwiOiJBcHBsZSBpT1MiLCJpZGVudGlmaWNhdGlvblR5cGUiOiIxIiwic2Vzc2lvbklkIjoiU0VTU0lPTl8yIiwiY29tbWVyY2UiOiJCYW5jbyIsImJpcnRoRGF0ZSI6IjE5OTItMDQtMDgiLCJzZXhDb2RlIjoiRiIsInJlZ2lvbkNvZGUiOiIxMyIsImlkZW50aWZpY2F0aW9uTnVtYmVyIjoiMTYxODQ0MTAxIiwibGFzdE5hbWUyIjoiR09OWkFMRVoiLCJlbWFpbCI6ImZpZ3BlbmFnQGZhbGFiZWxsYS5jbCJ9",
+            "type": "text"
+          },
+          {
+            "key": "x-app-version",
+            "value": "20.0.0",
+            "type": "text"
+          },
+          {
+            "key": "x-customer-hash",
+            "value": "10001787_hash",
+            "type": "text"
+          },
+          {
+            "key": "X-Authorization",
+            "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkVBeXJ6SjdXZ1o0bjVSb3ZWamZjYWZzT3djTTNUa0pzRXBhd3FwcEZHVmc9IiwidHlwIjoiSldUIn0.eyJlbWFpbCI6IkNPUlJFT1BydWViYUBGQUxBQkVMTEEuQ0wiLCJzdXJuYW1lIjoiQVBFTExJRE9QQVQiLCJhZGRpdGlvbmFsU3VybmFtZSI6IkFQRUxMSURPTUFUIiwibmFtZXMiOiJKVUFOIExVQ0FTIiwiZG9jdW1lbnRUeXBlIjoiUlVUIiwiZG9jdW1lbnROdW1iZXIiOiIyMjM0NjA4NzkiLCJzZXNzaW9uSWQiOiIzRTYxQTdEQUYzNzc1NkRCQzMwNTcxRUFEQzA0MTY1QyIsImlzcyI6Imh0dHBzOi8vZ2F0ZXdheS1hcGktY2wtZ2NwLXNhd2VzdC0xLXVhdC1jaGlsZS1jZGF1eC5iZmNsLW5wLWdjcC1hbGZhLXNhd2VzdDEtcHJlcHJvZC5maWYudGVjaC9maWZjbC92MiIsImV4cCI6MTc1MTMxMDk0OCwiaWF0IjoxNzUxMzEwNjQ4fQ.pzq2t2q6zw7VLM8QdkWpQ7EmaoYofW_nOjYX2FaEbFO_9MNPfgqfewje3M9C_Ul5QMiFV_a-C9k5xjop1mFSno-5d8_W-qBjlpAizVqSIPqlhuyM9APEOS_IEpIyGIJDbewtJw0-ySjJPyxQLRUjACRoaXPsWqGwGw6jR_Yx3-xsxL2CcOk88bzoEf9h3UJ0fg2HOTy0yCS1i02-Cj0HUxJ3zu5ayHHGr8i50aoT4DqiM3brQu7AD60rSn7Rp8lJSkUlR0X5LYVuv5rcCRyGera0pBR02IFA_Tpb23woVM8J4qdP4g1DnK8TayW8SY2qe4jOqlvMx0xpc2DsM6cSvw",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-request-id",
+            "value": "1b679244-e95e-4062-9282-4583376b20da",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "cf-connecting-ip",
+            "value": "127.0.0.1",
+            "type": "text"
+          },
+          {
+            "key": "x-session-id",
+            "value": "SOME_SESSION_ID",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-app-platform",
+            "value": "NULL",
+            "type": "text"
+          },
+          {
+            "key": "version",
+            "value": "20.0.0",
+            "type": "text",
+            "disabled": true
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\":\"SAVING_DAP\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://financial-product-groups-bff-any-liability-group-uat-chil-aufyd.banco-cl-null-platform-preprod.fif.tech/liability-group/v1/get-products",
+          "protocol": "https",
+          "host": [
+            "financial-product-groups-bff-any-liability-group-uat-chil-aufyd",
+            "banco-cl-null-platform-preprod",
+            "fif",
+            "tech"
+          ],
+          "path": [
+            "liability-group",
+            "v1",
+            "get-products"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Example resp local",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-Channel",
+                "value": "Apple iOS",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-Commerce",
+                "value": "Banco",
+                "type": "text"
+              },
+              {
+                "key": "X-Country",
+                "value": "CO",
+                "type": "text"
+              },
+              {
+                "key": "User-Agent",
+                "value": "Fallabela/202304191630 CFNetwork/1402.0.8 Darwin/21.6.0",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-authenticated-userid",
+                "value": "eyJmaXNydE5hbWUiOiJQRURSTyBNSUdVRUwiLCJsYXN0TmFtZSI6IlBFUkVaIiwiY291bnRyeSI6IkNPIiwiYWRkcmVzcyI6IkV5emFndWlycmUiLCJkaXN0cmljdENvZGUiOiIyODciLCJhZGRyZXNzVHlwZSI6IjEiLCJjaXR5Q29kZSI6IjI4NyIsImNoYW5uZWwiOiJBcHBsZSBpT1MiLCJpZGVudGlmaWNhdGlvblR5cGUiOiIxIiwic2Vzc2lvbklkIjoiU0VTU0lPTl8yIiwiY29tbWVyY2UiOiJCYW5jbyIsImJpcnRoRGF0ZSI6IjE5OTItMDQtMDgiLCJzZXhDb2RlIjoiRiIsInJlZ2lvbkNvZGUiOiIxMyIsImlkZW50aWZpY2F0aW9uTnVtYmVyIjoiMTAwMDE3ODciLCJsYXN0TmFtZTIiOiJHT05aQUxFWiIsImVtYWlsIjoiZmlncGVuYWdAZmFsYWJlbGxhLmNsIn0=",
+                "type": "text"
+              },
+              {
+                "key": "x-app-version",
+                "value": "20.0.0",
+                "type": "text"
+              },
+              {
+                "key": "x-customer-hash",
+                "value": "10001787_hash",
+                "type": "text"
+              },
+              {
+                "key": "X-Authorization",
+                "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkVBeXJ6SjdXZ1o0bjVSb3ZWamZjYWZzT3djTTNUa0pzRXBhd3FwcEZHVmc9IiwidHlwIjoiSldUIn0.eyJlbWFpbCI6IkNPUlJFT1BydWViYUBGQUxBQkVMTEEuQ0wiLCJzdXJuYW1lIjoiQVBFTExJRE9QQVQiLCJhZGRpdGlvbmFsU3VybmFtZSI6IkFQRUxMSURPTUFUIiwibmFtZXMiOiJKVUFOIExVQ0FTIiwiZG9jdW1lbnRUeXBlIjoiUlVUIiwiZG9jdW1lbnROdW1iZXIiOiIyMjM0NjA4NzkiLCJzZXNzaW9uSWQiOiIzRTYxQTdEQUYzNzc1NkRCQzMwNTcxRUFEQzA0MTY1QyIsImlzcyI6Imh0dHBzOi8vZ2F0ZXdheS1hcGktY2wtZ2NwLXNhd2VzdC0xLXVhdC1jaGlsZS1jZGF1eC5iZmNsLW5wLWdjcC1hbGZhLXNhd2VzdDEtcHJlcHJvZC5maWYudGVjaC9maWZjbC92MiIsImV4cCI6MTc1MTMxMDk0OCwiaWF0IjoxNzUxMzEwNjQ4fQ.pzq2t2q6zw7VLM8QdkWpQ7EmaoYofW_nOjYX2FaEbFO_9MNPfgqfewje3M9C_Ul5QMiFV_a-C9k5xjop1mFSno-5d8_W-qBjlpAizVqSIPqlhuyM9APEOS_IEpIyGIJDbewtJw0-ySjJPyxQLRUjACRoaXPsWqGwGw6jR_Yx3-xsxL2CcOk88bzoEf9h3UJ0fg2HOTy0yCS1i02-Cj0HUxJ3zu5ayHHGr8i50aoT4DqiM3brQu7AD60rSn7Rp8lJSkUlR0X5LYVuv5rcCRyGera0pBR02IFA_Tpb23woVM8J4qdP4g1DnK8TayW8SY2qe4jOqlvMx0xpc2DsM6cSvw",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-request-id",
+                "value": "1b679244-e95e-4062-9282-4583376b20da",
+                "type": "text"
+              },
+              {
+                "key": "cf-connecting-ip",
+                "value": "127.0.0.1",
+                "type": "text"
+              },
+              {
+                "key": "x-session-id",
+                "value": "SOME_SESSION_ID",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-app-platform",
+                "value": "NULL",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\":\"2\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/liability-group/v1/get-products",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "liability-group",
+                "v1",
+                "get-products"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "content-length",
+              "value": "4259"
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 31 Dec 2025 14:59:44 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=72"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"payload\": {\n        \"balanceTotal\": [\n            {\n                \"amount\": 2545658,\n                \"currency\": \"COP\",\n                \"SAVING\": 0,\n                \"CHECKING\": 0,\n                \"PERSONALOAN\": 0,\n                \"CREDITCARD\": 0,\n                \"CDT\": 1272829,\n                \"CDAT\": 1272829\n            }\n        ],\n        \"productsGrouped\": [\n            {\n                \"type\": \"CDAT\",\n                \"groupTitle\": \"Certificado Depósito de Ahorro a Término\",\n                \"productSubtitle\": \"Invertido\",\n                \"deeplink\": \"deeplinks3\",\n                \"cardType\": null,\n                \"tapCard\": {\n                    \"analytics\": {\n                        \"element\": \"stringelement6\",\n                        \"action\": \"stringaction6\",\n                        \"location\": \"stringlocation6\",\n                        \"flow\": \"stringflow6\"\n                    }\n                },\n                \"products\": [\n                    {\n                        \"accountNumber\": \"106079\",\n                        \"productType\": \"5\",\n                        \"productSubtype\": \"50\",\n                        \"productName\": \"term-deposits\",\n                        \"balances\": [\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CDAT\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Vence el 2015/05/25\",\n                        \"headerBackgroundColor\": \"#a9b1bb\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"CDT\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"106072\",\n                        \"productType\": \"5\",\n                        \"productSubtype\": \"95\",\n                        \"productName\": \"term-deposits\",\n                        \"balances\": [\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CDT\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Vence el 2015/05/25\",\n                        \"headerBackgroundColor\": \"#a8b1bb\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"SAVING\",\n                \"groupTitle\": \"Alcancías\",\n                \"productSubtitle\": \"Ahorrado\",\n                \"deeplink\": \"deeplinks1\",\n                \"cardType\": null,\n                \"tapCard\": {\n                    \"analytics\": {\n                        \"element\": \"stringelement4\",\n                        \"action\": \"stringaction4\",\n                        \"location\": \"stringlocation4\",\n                        \"flow\": \"stringflow4\"\n                    }\n                },\n                \"products\": [\n                    {\n                        \"accountNumber\": \"420700014339\",\n                        \"productType\": \"2\",\n                        \"productSubtype\": \"20\",\n                        \"productName\": \"saving-accounts\",\n                        \"balances\": [\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"COP\"\n                            }\n                        ],\n                        \"purpose\": \"Alcancía\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Alcancías\",\n                        \"headerBackgroundColor\": \"#3b9326\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"CHECKING\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"420700014339\",\n                        \"productType\": \"7\",\n                        \"productSubtype\": \"21\",\n                        \"productName\": \"cheking-acounts\",\n                        \"balances\": [\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"Prueba Cuenta PAC Test\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Vence el 2015/05/25\",\n                        \"headerBackgroundColor\": \"\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"PERSONALOAN\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"201040255523\",\n                        \"productType\": \"3\",\n                        \"productSubtype\": \"30\",\n                        \"productName\": \"personal-loans\",\n                        \"balances\": [\n                            {\n                                \"amount\": 166400,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 166400,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CREDITO EN CUOTAS\",\n                        \"Icon\": \"\",\n                        \"isActive\": true,\n                        \"productTitle\": \"\",\n                        \"headerBackgroundColor\": \"\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"CREDITCARD\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"01720062300000109278\",\n                        \"productType\": \"1\",\n                        \"productSubtype\": \"050002\",\n                        \"productName\": \"credit-card\",\n                        \"balances\": [\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CREDITCARD\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"\",\n                        \"headerBackgroundColor\": \"\"\n                    }\n                ]\n            }\n        ],\n        \"analytics\": {\n            \"funnelStepViewed\": {\n                \"funnelStepCardGrouped\": {\n                    \"funnelName\": \"card_agrupador_productos\",\n                    \"funnelStepName\": \"ver_detalle\",\n                    \"assystType\": \"autoasistido\",\n                    \"cardPermaLink\": \"tipo_objetivo_ahorro\"\n                },\n                \"funnelStepGroupedSaving\": {\n                    \"funnelName\": \"agrupacion_ahorro_inversion\",\n                    \"funnelStepName\": \"agrupador\",\n                    \"assystType\": \"autoasistido\"\n                }\n            },\n            \"pageLocation\": {\n                \"pageLocation\": \"detalle_agrupador\",\n                \"pageTitle\": \"ahorro e inversión\"\n            }\n        },\n        \"actions\": [\n            {\n                \"position\": 1,\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement3\",\n                    \"action\": \"stringaction3\",\n                    \"location\": \"stringlocation3\",\n                    \"flow\": \"stringflow3\"\n                }\n            },\n            {\n                \"position\": 4,\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement11\",\n                    \"action\": \"stringaction11\",\n                    \"location\": \"stringlocation11\",\n                    \"flow\": \"stringflow11\"\n                }\n            },\n            {\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement1\",\n                    \"action\": \"stringaction1\",\n                    \"location\": \"stringlocation1\",\n                    \"flow\": \"stringflow1\"\n                }\n            },\n            {\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement6\",\n                    \"action\": \"stringaction6\",\n                    \"location\": \"stringlocation6\",\n                    \"flow\": \"stringflow6\"\n                }\n            }\n        ],\n        \"titleButtonActions\": null\n    }\n}"
+        }
+      ]
+    },
+    {
+      "name": "GET GROUPS AND BALANCE Peru Local",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {
+          "connection": true,
+          "accept-encoding": true,
+          "accept": true,
+          "user-agent": true
+        }
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "X-Channel",
+            "value": "Apple iOS",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-Commerce",
+            "value": "Banco",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "X-Country",
+            "value": "CL",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "User-Agent",
+            "value": "Fallabela/202304191630 CFNetwork/1402.0.8 Darwin/21.6.0",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-authenticated-userid",
+            "value": "eyJmaXNydE5hbWUiOiJQRURSTyBNSUdVRUwiLCJsYXN0TmFtZSI6IlBFUkVaIiwiY291bnRyeSI6IlBFIiwiYWRkcmVzcyI6IkV5emFndWlycmUiLCJkaXN0cmljdENvZGUiOiIyODciLCJhZGRyZXNzVHlwZSI6IjEiLCJjaXR5Q29kZSI6IjI4NyIsImNoYW5uZWwiOiJBcHBsZSBpT1MiLCJpZGVudGlmaWNhdGlvblR5cGUiOiIxIiwic2Vzc2lvbklkIjoiU0VTU0lPTl8yIiwiY29tbWVyY2UiOiJCYW5jbyIsImJpcnRoRGF0ZSI6IjE5OTItMDQtMDgiLCJzZXhDb2RlIjoiRiIsInJlZ2lvbkNvZGUiOiIxMyIsImlkZW50aWZpY2F0aW9uTnVtYmVyIjoiMTAwMDgxNDAiLCJsYXN0TmFtZTIiOiJHT05aQUxFWiIsImVtYWlsIjoiZmlncGVuYWdAZmFsYWJlbGxhLmNsIn0=",
+            "type": "text"
+          },
+          {
+            "key": "x-app-version",
+            "value": "20.0.0",
+            "type": "text"
+          },
+          {
+            "key": "x-customer-hash",
+            "value": "10008140_hash",
+            "type": "text"
+          },
+          {
+            "key": "X-Authorization",
+            "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkVBeXJ6SjdXZ1o0bjVSb3ZWamZjYWZzT3djTTNUa0pzRXBhd3FwcEZHVmc9IiwidHlwIjoiSldUIn0.eyJlbWFpbCI6IkNPUlJFT1BydWViYUBGQUxBQkVMTEEuQ0wiLCJzdXJuYW1lIjoiQVBFTExJRE9QQVQiLCJhZGRpdGlvbmFsU3VybmFtZSI6IkFQRUxMSURPTUFUIiwibmFtZXMiOiJKVUFOIExVQ0FTIiwiZG9jdW1lbnRUeXBlIjoiUlVUIiwiZG9jdW1lbnROdW1iZXIiOiIyMjM0NjA4NzkiLCJzZXNzaW9uSWQiOiIzRTYxQTdEQUYzNzc1NkRCQzMwNTcxRUFEQzA0MTY1QyIsImlzcyI6Imh0dHBzOi8vZ2F0ZXdheS1hcGktY2wtZ2NwLXNhd2VzdC0xLXVhdC1jaGlsZS1jZGF1eC5iZmNsLW5wLWdjcC1hbGZhLXNhd2VzdDEtcHJlcHJvZC5maWYudGVjaC9maWZjbC92MiIsImV4cCI6MTc1MTMxMDk0OCwiaWF0IjoxNzUxMzEwNjQ4fQ.pzq2t2q6zw7VLM8QdkWpQ7EmaoYofW_nOjYX2FaEbFO_9MNPfgqfewje3M9C_Ul5QMiFV_a-C9k5xjop1mFSno-5d8_W-qBjlpAizVqSIPqlhuyM9APEOS_IEpIyGIJDbewtJw0-ySjJPyxQLRUjACRoaXPsWqGwGw6jR_Yx3-xsxL2CcOk88bzoEf9h3UJ0fg2HOTy0yCS1i02-Cj0HUxJ3zu5ayHHGr8i50aoT4DqiM3brQu7AD60rSn7Rp8lJSkUlR0X5LYVuv5rcCRyGera0pBR02IFA_Tpb23woVM8J4qdP4g1DnK8TayW8SY2qe4jOqlvMx0xpc2DsM6cSvw",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-request-id",
+            "value": "1b679244-e95e-4062-9282-4583376b20da",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "cf-connecting-ip",
+            "value": "127.0.0.1",
+            "type": "text"
+          },
+          {
+            "key": "x-session-id",
+            "value": "SOME_SESSION_ID",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-app-platform",
+            "value": "123",
+            "type": "text"
+          },
+          {
+            "key": "version",
+            "value": "20.0.0",
+            "type": "text",
+            "disabled": true
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\":\"SAVING_DAP\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/liability-group/v1/get-products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "liability-group",
+            "v1",
+            "get-products"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Example resp local",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-Channel",
+                "value": "Apple iOS",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-Commerce",
+                "value": "Banco",
+                "type": "text"
+              },
+              {
+                "key": "X-Country",
+                "value": "CO",
+                "type": "text"
+              },
+              {
+                "key": "User-Agent",
+                "value": "Fallabela/202304191630 CFNetwork/1402.0.8 Darwin/21.6.0",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-authenticated-userid",
+                "value": "eyJmaXNydE5hbWUiOiJQRURSTyBNSUdVRUwiLCJsYXN0TmFtZSI6IlBFUkVaIiwiY291bnRyeSI6IkNPIiwiYWRkcmVzcyI6IkV5emFndWlycmUiLCJkaXN0cmljdENvZGUiOiIyODciLCJhZGRyZXNzVHlwZSI6IjEiLCJjaXR5Q29kZSI6IjI4NyIsImNoYW5uZWwiOiJBcHBsZSBpT1MiLCJpZGVudGlmaWNhdGlvblR5cGUiOiIxIiwic2Vzc2lvbklkIjoiU0VTU0lPTl8yIiwiY29tbWVyY2UiOiJCYW5jbyIsImJpcnRoRGF0ZSI6IjE5OTItMDQtMDgiLCJzZXhDb2RlIjoiRiIsInJlZ2lvbkNvZGUiOiIxMyIsImlkZW50aWZpY2F0aW9uTnVtYmVyIjoiMTAwMDE3ODciLCJsYXN0TmFtZTIiOiJHT05aQUxFWiIsImVtYWlsIjoiZmlncGVuYWdAZmFsYWJlbGxhLmNsIn0=",
+                "type": "text"
+              },
+              {
+                "key": "x-app-version",
+                "value": "20.0.0",
+                "type": "text"
+              },
+              {
+                "key": "x-customer-hash",
+                "value": "10001787_hash",
+                "type": "text"
+              },
+              {
+                "key": "X-Authorization",
+                "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkVBeXJ6SjdXZ1o0bjVSb3ZWamZjYWZzT3djTTNUa0pzRXBhd3FwcEZHVmc9IiwidHlwIjoiSldUIn0.eyJlbWFpbCI6IkNPUlJFT1BydWViYUBGQUxBQkVMTEEuQ0wiLCJzdXJuYW1lIjoiQVBFTExJRE9QQVQiLCJhZGRpdGlvbmFsU3VybmFtZSI6IkFQRUxMSURPTUFUIiwibmFtZXMiOiJKVUFOIExVQ0FTIiwiZG9jdW1lbnRUeXBlIjoiUlVUIiwiZG9jdW1lbnROdW1iZXIiOiIyMjM0NjA4NzkiLCJzZXNzaW9uSWQiOiIzRTYxQTdEQUYzNzc1NkRCQzMwNTcxRUFEQzA0MTY1QyIsImlzcyI6Imh0dHBzOi8vZ2F0ZXdheS1hcGktY2wtZ2NwLXNhd2VzdC0xLXVhdC1jaGlsZS1jZGF1eC5iZmNsLW5wLWdjcC1hbGZhLXNhd2VzdDEtcHJlcHJvZC5maWYudGVjaC9maWZjbC92MiIsImV4cCI6MTc1MTMxMDk0OCwiaWF0IjoxNzUxMzEwNjQ4fQ.pzq2t2q6zw7VLM8QdkWpQ7EmaoYofW_nOjYX2FaEbFO_9MNPfgqfewje3M9C_Ul5QMiFV_a-C9k5xjop1mFSno-5d8_W-qBjlpAizVqSIPqlhuyM9APEOS_IEpIyGIJDbewtJw0-ySjJPyxQLRUjACRoaXPsWqGwGw6jR_Yx3-xsxL2CcOk88bzoEf9h3UJ0fg2HOTy0yCS1i02-Cj0HUxJ3zu5ayHHGr8i50aoT4DqiM3brQu7AD60rSn7Rp8lJSkUlR0X5LYVuv5rcCRyGera0pBR02IFA_Tpb23woVM8J4qdP4g1DnK8TayW8SY2qe4jOqlvMx0xpc2DsM6cSvw",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-request-id",
+                "value": "1b679244-e95e-4062-9282-4583376b20da",
+                "type": "text"
+              },
+              {
+                "key": "cf-connecting-ip",
+                "value": "127.0.0.1",
+                "type": "text"
+              },
+              {
+                "key": "x-session-id",
+                "value": "SOME_SESSION_ID",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-app-platform",
+                "value": "NULL",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\":\"2\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/liability-group/v1/get-products",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "liability-group",
+                "v1",
+                "get-products"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "content-length",
+              "value": "4259"
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 31 Dec 2025 14:59:44 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=72"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"payload\": {\n        \"balanceTotal\": [\n            {\n                \"amount\": 2545658,\n                \"currency\": \"COP\",\n                \"SAVING\": 0,\n                \"CHECKING\": 0,\n                \"PERSONALOAN\": 0,\n                \"CREDITCARD\": 0,\n                \"CDT\": 1272829,\n                \"CDAT\": 1272829\n            }\n        ],\n        \"productsGrouped\": [\n            {\n                \"type\": \"CDAT\",\n                \"groupTitle\": \"Certificado Depósito de Ahorro a Término\",\n                \"productSubtitle\": \"Invertido\",\n                \"deeplink\": \"deeplinks3\",\n                \"cardType\": null,\n                \"tapCard\": {\n                    \"analytics\": {\n                        \"element\": \"stringelement6\",\n                        \"action\": \"stringaction6\",\n                        \"location\": \"stringlocation6\",\n                        \"flow\": \"stringflow6\"\n                    }\n                },\n                \"products\": [\n                    {\n                        \"accountNumber\": \"106079\",\n                        \"productType\": \"5\",\n                        \"productSubtype\": \"50\",\n                        \"productName\": \"term-deposits\",\n                        \"balances\": [\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CDAT\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Vence el 2015/05/25\",\n                        \"headerBackgroundColor\": \"#a9b1bb\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"CDT\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"106072\",\n                        \"productType\": \"5\",\n                        \"productSubtype\": \"95\",\n                        \"productName\": \"term-deposits\",\n                        \"balances\": [\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CDT\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Vence el 2015/05/25\",\n                        \"headerBackgroundColor\": \"#a8b1bb\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"SAVING\",\n                \"groupTitle\": \"Alcancías\",\n                \"productSubtitle\": \"Ahorrado\",\n                \"deeplink\": \"deeplinks1\",\n                \"cardType\": null,\n                \"tapCard\": {\n                    \"analytics\": {\n                        \"element\": \"stringelement4\",\n                        \"action\": \"stringaction4\",\n                        \"location\": \"stringlocation4\",\n                        \"flow\": \"stringflow4\"\n                    }\n                },\n                \"products\": [\n                    {\n                        \"accountNumber\": \"420700014339\",\n                        \"productType\": \"2\",\n                        \"productSubtype\": \"20\",\n                        \"productName\": \"saving-accounts\",\n                        \"balances\": [\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"COP\"\n                            }\n                        ],\n                        \"purpose\": \"Alcancía\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Alcancías\",\n                        \"headerBackgroundColor\": \"#3b9326\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"CHECKING\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"420700014339\",\n                        \"productType\": \"7\",\n                        \"productSubtype\": \"21\",\n                        \"productName\": \"cheking-acounts\",\n                        \"balances\": [\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"Prueba Cuenta PAC Test\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Vence el 2015/05/25\",\n                        \"headerBackgroundColor\": \"\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"PERSONALOAN\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"201040255523\",\n                        \"productType\": \"3\",\n                        \"productSubtype\": \"30\",\n                        \"productName\": \"personal-loans\",\n                        \"balances\": [\n                            {\n                                \"amount\": 166400,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 166400,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CREDITO EN CUOTAS\",\n                        \"Icon\": \"\",\n                        \"isActive\": true,\n                        \"productTitle\": \"\",\n                        \"headerBackgroundColor\": \"\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"CREDITCARD\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"01720062300000109278\",\n                        \"productType\": \"1\",\n                        \"productSubtype\": \"050002\",\n                        \"productName\": \"credit-card\",\n                        \"balances\": [\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CREDITCARD\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"\",\n                        \"headerBackgroundColor\": \"\"\n                    }\n                ]\n            }\n        ],\n        \"analytics\": {\n            \"funnelStepViewed\": {\n                \"funnelStepCardGrouped\": {\n                    \"funnelName\": \"card_agrupador_productos\",\n                    \"funnelStepName\": \"ver_detalle\",\n                    \"assystType\": \"autoasistido\",\n                    \"cardPermaLink\": \"tipo_objetivo_ahorro\"\n                },\n                \"funnelStepGroupedSaving\": {\n                    \"funnelName\": \"agrupacion_ahorro_inversion\",\n                    \"funnelStepName\": \"agrupador\",\n                    \"assystType\": \"autoasistido\"\n                }\n            },\n            \"pageLocation\": {\n                \"pageLocation\": \"detalle_agrupador\",\n                \"pageTitle\": \"ahorro e inversión\"\n            }\n        },\n        \"actions\": [\n            {\n                \"position\": 1,\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement3\",\n                    \"action\": \"stringaction3\",\n                    \"location\": \"stringlocation3\",\n                    \"flow\": \"stringflow3\"\n                }\n            },\n            {\n                \"position\": 4,\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement11\",\n                    \"action\": \"stringaction11\",\n                    \"location\": \"stringlocation11\",\n                    \"flow\": \"stringflow11\"\n                }\n            },\n            {\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement1\",\n                    \"action\": \"stringaction1\",\n                    \"location\": \"stringlocation1\",\n                    \"flow\": \"stringflow1\"\n                }\n            },\n            {\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement6\",\n                    \"action\": \"stringaction6\",\n                    \"location\": \"stringlocation6\",\n                    \"flow\": \"stringflow6\"\n                }\n            }\n        ],\n        \"titleButtonActions\": null\n    }\n}"
+        }
+      ]
+    },
+    {
+      "name": "GET GROUPS AND BALANCE Peru Uat",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "// ===============================\r",
+              "// ✅ BASE\r",
+              "// ===============================\r",
+              "pm.test(\"Status code es 200\", function () {\r",
+              "    pm.response.to.have.status(200);\r",
+              "});\r",
+              "\r",
+              "pm.test(\"Tiempo menor a 3000ms\", function () {\r",
+              "    pm.expect(pm.response.responseTime).to.be.below(3000);\r",
+              "});\r",
+              "\r",
+              "// ✅ SOLO UNA VEZ\r",
+              "const json = pm.response.json();\r",
+              "\r",
+              "// ===============================\r",
+              "// ✅ VALIDACIÓN ESTRUCTURA\r",
+              "// ===============================\r",
+              "pm.test(\"Debe contener payload\", function () {\r",
+              "    pm.expect(json).to.have.property(\"payload\");\r",
+              "});\r",
+              "\r",
+              "pm.test(\"Debe contener productsGrouped\", function () {\r",
+              "    pm.expect(json.payload).to.have.property(\"productsGrouped\");\r",
+              "});\r",
+              "\r",
+              "pm.test(\"Debe haber al menos un grupo\", function () {\r",
+              "    pm.expect(json.payload.productsGrouped.length).to.be.above(0);\r",
+              "});\r",
+              "\r",
+              "// ===============================\r",
+              "// ✅ VALIDACIÓN GRUPOS\r",
+              "// ===============================\r",
+              "json.payload.productsGrouped.forEach((group) => {\r",
+              "\r",
+              "    pm.test(\"Grupo tiene type\", function () {\r",
+              "        pm.expect(group).to.have.property(\"type\");\r",
+              "    });\r",
+              "\r",
+              "    pm.test(\"Grupo tiene products\", function () {\r",
+              "        pm.expect(group).to.have.property(\"products\");\r",
+              "    });\r",
+              "\r",
+              "});\r",
+              "\r",
+              "// ===============================\r",
+              "// ✅ VALIDACIÓN PRODUCTOS\r",
+              "// ===============================\r",
+              "json.payload.productsGrouped.forEach((group) => {\r",
+              "\r",
+              "    group.products.forEach((product) => {\r",
+              "\r",
+              "        pm.test(\"Producto tiene accountNumber\", function () {\r",
+              "            pm.expect(product).to.have.property(\"accountNumber\");\r",
+              "        });\r",
+              "\r",
+              "        pm.test(\"Producto tiene balances\", function () {\r",
+              "            pm.expect(product).to.have.property(\"balances\");\r",
+              "        });\r",
+              "\r",
+              "    });\r",
+              "\r",
+              "});\r",
+              "\r",
+              "// ===============================\r",
+              "// ✅ VALIDACIÓN BFF\r",
+              "// ===============================\r",
+              "pm.test(\"Debe tener groupTitle\", function () {\r",
+              "    pm.expect(json.payload.productsGrouped[0]).to.have.property(\"groupTitle\");\r",
+              "});\r",
+              "\r",
+              "pm.test(\"Debe tener deeplink\", function () {\r",
+              "    pm.expect(json.payload.productsGrouped[0].deeplink).to.not.be.null;\r",
+              "});\r",
+              "\r",
+              "// ===============================\r",
+              "// ✅ GRUPOS NO VACÍOS\r",
+              "// ===============================\r",
+              "pm.test(\"Ningún grupo debe estar vacío\", function () {\r",
+              "    json.payload.productsGrouped.forEach(group => {\r",
+              "        pm.expect(group.products.length).to.be.above(0);\r",
+              "    });\r",
+              "});\r",
+              "\r",
+              "// ===============================\r",
+              "// ✅ VALIDACIÓN BALANCES\r",
+              "// ===============================\r",
+              "pm.test(\"Balances deben ser >= 0\", function () {\r",
+              "\r",
+              "    json.payload.productsGrouped.forEach(group => {\r",
+              "\r",
+              "        group.products.forEach(product => {\r",
+              "\r",
+              "            product.balances.forEach(balance => {\r",
+              "\r",
+              "                pm.expect(balance.amount).to.be.a(\"number\");\r",
+              "                pm.expect(balance.amount).to.be.at.least(0);\r",
+              "\r",
+              "            });\r",
+              "\r",
+              "        });\r",
+              "\r",
+              "    });\r",
+              "\r",
+              "});\r",
+              "\r",
+              "// ===============================\r",
+              "// ✅ VALIDACIÓN MONEDAS\r",
+              "// ===============================\r",
+              "let monedas = [];\r",
+              "\r",
+              "json.payload.productsGrouped.forEach(group => {\r",
+              "    group.products.forEach(product => {\r",
+              "        product.balances.forEach(balance => {\r",
+              "            monedas.push(balance.currency);\r",
+              "        });\r",
+              "    });\r",
+              "});\r",
+              "\r",
+              "let monedasUnicas = [...new Set(monedas)];\r",
+              "\r",
+              "pm.test(\"Monedas deben ser válidas (PEN/USD)\", function () {\r",
+              "\r",
+              "    pm.expect(monedasUnicas.length).to.be.above(0);\r",
+              "\r",
+              "    monedasUnicas.forEach(moneda => {\r",
+              "        pm.expect([\"PEN\", \"USD\"]).to.include(moneda);\r",
+              "    });\r",
+              "\r",
+              "});\r",
+              "\r",
+              "// ===============================\r",
+              "// ✅ VALIDACIÓN DUPLICADOS\r",
+              "// ===============================\r",
+              "let cuentas = [];\r",
+              "\r",
+              "json.payload.productsGrouped.forEach(group => {\r",
+              "    group.products.forEach(product => {\r",
+              "        cuentas.push(product.accountNumber);\r",
+              "    });\r",
+              "});\r",
+              "\r",
+              "let cuentasUnicas = [...new Set(cuentas)];\r",
+              "\r",
+              "pm.test(\"No debe haber productos duplicados\", function () {\r",
+              "    pm.expect(cuentas.length).to.eql(cuentasUnicas.length);\r",
+              "});\r",
+              "\r",
+              "// ===============================\r",
+              "// ✅ VALIDACIÓN TIPOS\r",
+              "// ===============================\r",
+              "pm.test(\"Debe contener tipos válidos\", function () {\r",
+              "\r",
+              "    let tiposEsperados = [\"SAVING\", \"CTS\", \"TERMDEPOSIT\"];\r",
+              "\r",
+              "    json.payload.productsGrouped.forEach(group => {\r",
+              "        pm.expect(tiposEsperados).to.include(group.type);\r",
+              "    });\r",
+              "\r",
+              "});\r",
+              "\r",
+              "// ===============================\r",
+              "// ✅ VALIDACIÓN TIPO + MONEDA\r",
+              "// ===============================\r",
+              "let combinaciones = [];\r",
+              "\r",
+              "json.payload.productsGrouped.forEach(group => {\r",
+              "    group.products.forEach(product => {\r",
+              "        product.balances.forEach(balance => {\r",
+              "            combinaciones.push(group.type + \"_\" + balance.currency);\r",
+              "        });\r",
+              "    });\r",
+              "});\r",
+              "\r",
+              "let combinacionesUnicas = [...new Set(combinaciones)];\r",
+              "\r",
+              "pm.test(\"Combinaciones tipo-moneda válidas\", function () {\r",
+              "\r",
+              "    let combinacionesEsperadas = [\r",
+              "        \"SAVING_PEN\", \"SAVING_USD\",\r",
+              "        \"CTS_PEN\", \"CTS_USD\",\r",
+              "        \"TERMDEPOSIT_PEN\", \"TERMDEPOSIT_USD\"\r",
+              "    ];\r",
+              "\r",
+              "    combinacionesUnicas.forEach(c => {\r",
+              "        pm.expect(combinacionesEsperadas).to.include(c);\r",
+              "    });\r",
+              "\r",
+              "});\r",
+              "\r",
+              "// ===============================\r",
+              "// ✅ VALIDACIÓN ORDEN\r",
+              "// ===============================\r",
+              "\r",
+              "\r",
+              "let orden = json.payload.productsGrouped.map(g => g.type);\r",
+              "\r",
+              "// Definición del orden de negocio\r",
+              "let ordenEsperado = [\"SAVING\", \"CTS\", \"TERMDEPOSIT\"];\r",
+              "\r",
+              "// Validar que el orden respete precedencia\r",
+              "pm.test(\"Orden respeta jerarquía de negocio\", function () {\r",
+              "\r",
+              "    let posiciones = orden.map(tipo => ordenEsperado.indexOf(tipo));\r",
+              "\r",
+              "    for (let i = 1; i < posiciones.length; i++) {\r",
+              "\r",
+              "        pm.expect(posiciones[i]).to.be.at.least(posiciones[i - 1]);\r",
+              "\r",
+              "    }\r",
+              "\r",
+              "});\r",
+              "\r",
+              "// ===============================\r",
+              "// ✅ VALIDACIÓN BALANCE TOTAL\r",
+              "// ===============================\r",
+              "let totalCalculado = 0;\r",
+              "\r",
+              "json.payload.productsGrouped.forEach(group => {\r",
+              "    group.products.forEach(product => {\r",
+              "        product.balances.forEach(balance => {\r",
+              "            totalCalculado += balance.amount;\r",
+              "        });\r",
+              "    });\r",
+              "});\r",
+              "\r",
+              "let totalBff = json.payload.balanceTotal[0].amount;\r",
+              "\r",
+              "pm.test(\"balanceTotal correcto\", function () {\r",
+              "    pm.expect(totalCalculado).to.be.closeTo(totalBff, 1);\r",
+              "});\r",
+              "\r",
+              "// ===============================\r",
+              "// ✅ VALIDACIÓN ERRORES\r",
+              "// ===============================\r",
+              "if (pm.response.code === 500) {\r",
+              "\r",
+              "    let res = pm.response.json();\r",
+              "\r",
+              "    pm.test(\"Error 500 controlado\", function () {\r",
+              "        pm.expect(res.message).to.exist;\r",
+              "    });\r",
+              "}\r",
+              "\r",
+              "if (pm.response.code === 502) {\r",
+              "\r",
+              "    let res = pm.response.json();\r",
+              "\r",
+              "    pm.test(\"Error 502 controlado\", function () {\r",
+              "        pm.expect(res.status).to.include(\"NOT_FOUND\");\r",
+              "    });\r",
+              "}\r",
+              "// ==========================================\r",
+              "// ✅ VALIDACIÓN HEADERS OBLIGATORIOS\r",
+              "// ==========================================\r",
+              "\r",
+              "pm.test(\"Debe contener headers obligatorios\", function () {\r",
+              "\r",
+              "    const headers = pm.request.headers;\r",
+              "\r",
+              "    pm.expect(headers.has(\"x-authenticated-userid\")).to.be.true;\r",
+              "    pm.expect(headers.has(\"x-app-version\")).to.be.true;\r",
+              "    pm.expect(headers.has(\"x-customer-hash\")).to.be.true;\r",
+              "    pm.expect(headers.has(\"x-session-id\")).to.be.true;\r",
+              "    pm.expect(headers.has(\"x-channel\")).to.be.true;\r",
+              "\r",
+              "});\r",
+              "\r",
+              " // ==========================================\r",
+              "// ✅  VALIDACIÓN AVANZADA (FORMATO)\r",
+              "// ==========================================\r",
+              "\r",
+              "\r",
+              "pm.test(\"Header version válido\", function () {\r",
+              "\r",
+              "    let version = pm.request.headers.get(\"x-app-version\");\r",
+              "    pm.expect(version).to.match(/^\\d+\\.\\d+\\.\\d+$/);\r",
+              "\r",
+              "});\r",
+              "\r",
+              "// ==========================================\r",
+              "// ✅ VALIDACIÓN DATOS PERMITID\r",
+              "// ==========================================\r",
+              "\r",
+              "pm.test(\"Tipos de producto permitidos\", function () {\r",
+              "\r",
+              "    let permitidos = [\"SAVING\", \"CTS\", \"TERMDEPOSIT\"];\r",
+              "\r",
+              "    json.payload.productsGrouped.forEach(group => {\r",
+              "        pm.expect(permitidos).to.include(group.type);\r",
+              "    });\r",
+              "\r",
+              "});\r",
+              "\r",
+              "pm.test(\"Monedas permitidas\", function () {\r",
+              "\r",
+              "    let permitidas = [\"PEN\", \"USD\"];\r",
+              "\r",
+              "    json.payload.productsGrouped.forEach(group => {\r",
+              "        group.products.forEach(product => {\r",
+              "            product.balances.forEach(balance => {\r",
+              "                pm.expect(permitidas).to.include(balance.currency);\r",
+              "            });\r",
+              "        });\r",
+              "    });\r",
+              "\r",
+              "});\r",
+              "\r",
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {
+          "connection": true,
+          "accept-encoding": true,
+          "accept": true,
+          "user-agent": true
+        }
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "X-Channel",
+            "value": "Apple iOS",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-Commerce",
+            "value": "Banco",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "X-Country",
+            "value": "CL",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "User-Agent",
+            "value": "Fallabela/202304191630 CFNetwork/1402.0.8 Darwin/21.6.0",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-authenticated-userid",
+            "value": "eyJmaXNydE5hbWUiOiJQRURSTyBNSUdVRUwiLCJsYXN0TmFtZSI6IlBFUkVaIiwiY291bnRyeSI6IlBFIiwiYWRkcmVzcyI6IkV5emFndWlycmUiLCJkaXN0cmljdENvZGUiOiIyODciLCJhZGRyZXNzVHlwZSI6IjEiLCJjaXR5Q29kZSI6IjI4NyIsImNoYW5uZWwiOiJBcHBsZSBpT1MiLCJpZGVudGlmaWNhdGlvblR5cGUiOiIxIiwic2Vzc2lvbklkIjoiU0VTU0lPTl8yIiwiY29tbWVyY2UiOiJCYW5jbyIsImJpcnRoRGF0ZSI6IjE5OTItMDQtMDgiLCJzZXhDb2RlIjoiRiIsInJlZ2lvbkNvZGUiOiIxMyIsImlkZW50aWZpY2F0aW9uTnVtYmVyIjoiMTAwMDgxNDAiLCJsYXN0TmFtZTIiOiJHT05aQUxFWiIsImVtYWlsIjoiZmlncGVuYWdAZmFsYWJlbGxhLmNsIn0=",
+            "type": "text"
+          },
+          {
+            "key": "x-app-version",
+            "value": "20.0.0",
+            "type": "text"
+          },
+          {
+            "key": "x-customer-hash",
+            "value": "10008140_hash",
+            "type": "text"
+          },
+          {
+            "key": "X-Authorization",
+            "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkVBeXJ6SjdXZ1o0bjVSb3ZWamZjYWZzT3djTTNUa0pzRXBhd3FwcEZHVmc9IiwidHlwIjoiSldUIn0.eyJlbWFpbCI6IkNPUlJFT1BydWViYUBGQUxBQkVMTEEuQ0wiLCJzdXJuYW1lIjoiQVBFTExJRE9QQVQiLCJhZGRpdGlvbmFsU3VybmFtZSI6IkFQRUxMSURPTUFUIiwibmFtZXMiOiJKVUFOIExVQ0FTIiwiZG9jdW1lbnRUeXBlIjoiUlVUIiwiZG9jdW1lbnROdW1iZXIiOiIyMjM0NjA4NzkiLCJzZXNzaW9uSWQiOiIzRTYxQTdEQUYzNzc1NkRCQzMwNTcxRUFEQzA0MTY1QyIsImlzcyI6Imh0dHBzOi8vZ2F0ZXdheS1hcGktY2wtZ2NwLXNhd2VzdC0xLXVhdC1jaGlsZS1jZGF1eC5iZmNsLW5wLWdjcC1hbGZhLXNhd2VzdDEtcHJlcHJvZC5maWYudGVjaC9maWZjbC92MiIsImV4cCI6MTc1MTMxMDk0OCwiaWF0IjoxNzUxMzEwNjQ4fQ.pzq2t2q6zw7VLM8QdkWpQ7EmaoYofW_nOjYX2FaEbFO_9MNPfgqfewje3M9C_Ul5QMiFV_a-C9k5xjop1mFSno-5d8_W-qBjlpAizVqSIPqlhuyM9APEOS_IEpIyGIJDbewtJw0-ySjJPyxQLRUjACRoaXPsWqGwGw6jR_Yx3-xsxL2CcOk88bzoEf9h3UJ0fg2HOTy0yCS1i02-Cj0HUxJ3zu5ayHHGr8i50aoT4DqiM3brQu7AD60rSn7Rp8lJSkUlR0X5LYVuv5rcCRyGera0pBR02IFA_Tpb23woVM8J4qdP4g1DnK8TayW8SY2qe4jOqlvMx0xpc2DsM6cSvw",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-request-id",
+            "value": "1b679244-e95e-4062-9282-4583376b20da",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "cf-connecting-ip",
+            "value": "127.0.0.1",
+            "type": "text"
+          },
+          {
+            "key": "x-session-id",
+            "value": "SOME_SESSION_ID",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "x-app-platform",
+            "value": "123",
+            "type": "text"
+          },
+          {
+            "key": "version",
+            "value": "20.0.0",
+            "type": "text",
+            "disabled": true
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\":\"SAVING_DAP\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://financial-product-groups-bff-any-liability-group-uat-peru-weuwx.bfpe-np-alfa-preprod.fif.tech/liability-group/v1/get-products",
+          "protocol": "https",
+          "host": [
+            "financial-product-groups-bff-any-liability-group-uat-peru-weuwx",
+            "bfpe-np-alfa-preprod",
+            "fif",
+            "tech"
+          ],
+          "path": [
+            "liability-group",
+            "v1",
+            "get-products"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Example resp local",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-Channel",
+                "value": "Apple iOS",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-Commerce",
+                "value": "Banco",
+                "type": "text"
+              },
+              {
+                "key": "X-Country",
+                "value": "CO",
+                "type": "text"
+              },
+              {
+                "key": "User-Agent",
+                "value": "Fallabela/202304191630 CFNetwork/1402.0.8 Darwin/21.6.0",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-authenticated-userid",
+                "value": "eyJmaXNydE5hbWUiOiJQRURSTyBNSUdVRUwiLCJsYXN0TmFtZSI6IlBFUkVaIiwiY291bnRyeSI6IkNPIiwiYWRkcmVzcyI6IkV5emFndWlycmUiLCJkaXN0cmljdENvZGUiOiIyODciLCJhZGRyZXNzVHlwZSI6IjEiLCJjaXR5Q29kZSI6IjI4NyIsImNoYW5uZWwiOiJBcHBsZSBpT1MiLCJpZGVudGlmaWNhdGlvblR5cGUiOiIxIiwic2Vzc2lvbklkIjoiU0VTU0lPTl8yIiwiY29tbWVyY2UiOiJCYW5jbyIsImJpcnRoRGF0ZSI6IjE5OTItMDQtMDgiLCJzZXhDb2RlIjoiRiIsInJlZ2lvbkNvZGUiOiIxMyIsImlkZW50aWZpY2F0aW9uTnVtYmVyIjoiMTAwMDE3ODciLCJsYXN0TmFtZTIiOiJHT05aQUxFWiIsImVtYWlsIjoiZmlncGVuYWdAZmFsYWJlbGxhLmNsIn0=",
+                "type": "text"
+              },
+              {
+                "key": "x-app-version",
+                "value": "20.0.0",
+                "type": "text"
+              },
+              {
+                "key": "x-customer-hash",
+                "value": "10001787_hash",
+                "type": "text"
+              },
+              {
+                "key": "X-Authorization",
+                "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkVBeXJ6SjdXZ1o0bjVSb3ZWamZjYWZzT3djTTNUa0pzRXBhd3FwcEZHVmc9IiwidHlwIjoiSldUIn0.eyJlbWFpbCI6IkNPUlJFT1BydWViYUBGQUxBQkVMTEEuQ0wiLCJzdXJuYW1lIjoiQVBFTExJRE9QQVQiLCJhZGRpdGlvbmFsU3VybmFtZSI6IkFQRUxMSURPTUFUIiwibmFtZXMiOiJKVUFOIExVQ0FTIiwiZG9jdW1lbnRUeXBlIjoiUlVUIiwiZG9jdW1lbnROdW1iZXIiOiIyMjM0NjA4NzkiLCJzZXNzaW9uSWQiOiIzRTYxQTdEQUYzNzc1NkRCQzMwNTcxRUFEQzA0MTY1QyIsImlzcyI6Imh0dHBzOi8vZ2F0ZXdheS1hcGktY2wtZ2NwLXNhd2VzdC0xLXVhdC1jaGlsZS1jZGF1eC5iZmNsLW5wLWdjcC1hbGZhLXNhd2VzdDEtcHJlcHJvZC5maWYudGVjaC9maWZjbC92MiIsImV4cCI6MTc1MTMxMDk0OCwiaWF0IjoxNzUxMzEwNjQ4fQ.pzq2t2q6zw7VLM8QdkWpQ7EmaoYofW_nOjYX2FaEbFO_9MNPfgqfewje3M9C_Ul5QMiFV_a-C9k5xjop1mFSno-5d8_W-qBjlpAizVqSIPqlhuyM9APEOS_IEpIyGIJDbewtJw0-ySjJPyxQLRUjACRoaXPsWqGwGw6jR_Yx3-xsxL2CcOk88bzoEf9h3UJ0fg2HOTy0yCS1i02-Cj0HUxJ3zu5ayHHGr8i50aoT4DqiM3brQu7AD60rSn7Rp8lJSkUlR0X5LYVuv5rcCRyGera0pBR02IFA_Tpb23woVM8J4qdP4g1DnK8TayW8SY2qe4jOqlvMx0xpc2DsM6cSvw",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-request-id",
+                "value": "1b679244-e95e-4062-9282-4583376b20da",
+                "type": "text"
+              },
+              {
+                "key": "cf-connecting-ip",
+                "value": "127.0.0.1",
+                "type": "text"
+              },
+              {
+                "key": "x-session-id",
+                "value": "SOME_SESSION_ID",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-app-platform",
+                "value": "NULL",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\":\"2\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/liability-group/v1/get-products",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "liability-group",
+                "v1",
+                "get-products"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "content-length",
+              "value": "4259"
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 31 Dec 2025 14:59:44 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=72"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"payload\": {\n        \"balanceTotal\": [\n            {\n                \"amount\": 2545658,\n                \"currency\": \"COP\",\n                \"SAVING\": 0,\n                \"CHECKING\": 0,\n                \"PERSONALOAN\": 0,\n                \"CREDITCARD\": 0,\n                \"CDT\": 1272829,\n                \"CDAT\": 1272829\n            }\n        ],\n        \"productsGrouped\": [\n            {\n                \"type\": \"CDAT\",\n                \"groupTitle\": \"Certificado Depósito de Ahorro a Término\",\n                \"productSubtitle\": \"Invertido\",\n                \"deeplink\": \"deeplinks3\",\n                \"cardType\": null,\n                \"tapCard\": {\n                    \"analytics\": {\n                        \"element\": \"stringelement6\",\n                        \"action\": \"stringaction6\",\n                        \"location\": \"stringlocation6\",\n                        \"flow\": \"stringflow6\"\n                    }\n                },\n                \"products\": [\n                    {\n                        \"accountNumber\": \"106079\",\n                        \"productType\": \"5\",\n                        \"productSubtype\": \"50\",\n                        \"productName\": \"term-deposits\",\n                        \"balances\": [\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CDAT\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Vence el 2015/05/25\",\n                        \"headerBackgroundColor\": \"#a9b1bb\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"CDT\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"106072\",\n                        \"productType\": \"5\",\n                        \"productSubtype\": \"95\",\n                        \"productName\": \"term-deposits\",\n                        \"balances\": [\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 1375010.49,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CDT\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Vence el 2015/05/25\",\n                        \"headerBackgroundColor\": \"#a8b1bb\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"SAVING\",\n                \"groupTitle\": \"Alcancías\",\n                \"productSubtitle\": \"Ahorrado\",\n                \"deeplink\": \"deeplinks1\",\n                \"cardType\": null,\n                \"tapCard\": {\n                    \"analytics\": {\n                        \"element\": \"stringelement4\",\n                        \"action\": \"stringaction4\",\n                        \"location\": \"stringlocation4\",\n                        \"flow\": \"stringflow4\"\n                    }\n                },\n                \"products\": [\n                    {\n                        \"accountNumber\": \"420700014339\",\n                        \"productType\": \"2\",\n                        \"productSubtype\": \"20\",\n                        \"productName\": \"saving-accounts\",\n                        \"balances\": [\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"COP\"\n                            }\n                        ],\n                        \"purpose\": \"Alcancía\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Alcancías\",\n                        \"headerBackgroundColor\": \"#3b9326\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"CHECKING\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"420700014339\",\n                        \"productType\": \"7\",\n                        \"productSubtype\": \"21\",\n                        \"productName\": \"cheking-acounts\",\n                        \"balances\": [\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"Prueba Cuenta PAC Test\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"Vence el 2015/05/25\",\n                        \"headerBackgroundColor\": \"\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"PERSONALOAN\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"201040255523\",\n                        \"productType\": \"3\",\n                        \"productSubtype\": \"30\",\n                        \"productName\": \"personal-loans\",\n                        \"balances\": [\n                            {\n                                \"amount\": 166400,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 166400,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CREDITO EN CUOTAS\",\n                        \"Icon\": \"\",\n                        \"isActive\": true,\n                        \"productTitle\": \"\",\n                        \"headerBackgroundColor\": \"\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"CREDITCARD\",\n                \"groupTitle\": \"\",\n                \"productSubtitle\": \"\",\n                \"deeplink\": \"no_deepllink_config\",\n                \"cardType\": null,\n                \"tapCard\": null,\n                \"products\": [\n                    {\n                        \"accountNumber\": \"01720062300000109278\",\n                        \"productType\": \"1\",\n                        \"productSubtype\": \"050002\",\n                        \"productName\": \"credit-card\",\n                        \"balances\": [\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"COP\"\n                            },\n                            {\n                                \"amount\": 540168.76,\n                                \"currency\": \"USD\"\n                            }\n                        ],\n                        \"purpose\": \"CREDITCARD\",\n                        \"Icon\": \"\",\n                        \"isActive\": false,\n                        \"productTitle\": \"\",\n                        \"headerBackgroundColor\": \"\"\n                    }\n                ]\n            }\n        ],\n        \"analytics\": {\n            \"funnelStepViewed\": {\n                \"funnelStepCardGrouped\": {\n                    \"funnelName\": \"card_agrupador_productos\",\n                    \"funnelStepName\": \"ver_detalle\",\n                    \"assystType\": \"autoasistido\",\n                    \"cardPermaLink\": \"tipo_objetivo_ahorro\"\n                },\n                \"funnelStepGroupedSaving\": {\n                    \"funnelName\": \"agrupacion_ahorro_inversion\",\n                    \"funnelStepName\": \"agrupador\",\n                    \"assystType\": \"autoasistido\"\n                }\n            },\n            \"pageLocation\": {\n                \"pageLocation\": \"detalle_agrupador\",\n                \"pageTitle\": \"ahorro e inversión\"\n            }\n        },\n        \"actions\": [\n            {\n                \"position\": 1,\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement3\",\n                    \"action\": \"stringaction3\",\n                    \"location\": \"stringlocation3\",\n                    \"flow\": \"stringflow3\"\n                }\n            },\n            {\n                \"position\": 4,\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement11\",\n                    \"action\": \"stringaction11\",\n                    \"location\": \"stringlocation11\",\n                    \"flow\": \"stringflow11\"\n                }\n            },\n            {\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement1\",\n                    \"action\": \"stringaction1\",\n                    \"location\": \"stringlocation1\",\n                    \"flow\": \"stringflow1\"\n                }\n            },\n            {\n                \"deeplink\": \"deeplinks1\",\n                \"icon\": \"icon1\",\n                \"title\": \"title opening product\",\n                \"analytics\": {\n                    \"element\": \"stringelement6\",\n                    \"action\": \"stringaction6\",\n                    \"location\": \"stringlocation6\",\n                    \"flow\": \"stringflow6\"\n                }\n            }\n        ],\n        \"titleButtonActions\": null\n    }\n}"
+        },
+        {
+          "name": "10008140",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-Channel",
+                "value": "Apple iOS",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-Commerce",
+                "value": "Banco",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "X-Country",
+                "value": "CL",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "User-Agent",
+                "value": "Fallabela/202304191630 CFNetwork/1402.0.8 Darwin/21.6.0",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-authenticated-userid",
+                "value": "eyJmaXNydE5hbWUiOiJQRURSTyBNSUdVRUwiLCJsYXN0TmFtZSI6IlBFUkVaIiwiY291bnRyeSI6IlBFIiwiYWRkcmVzcyI6IkV5emFndWlycmUiLCJkaXN0cmljdENvZGUiOiIyODciLCJhZGRyZXNzVHlwZSI6IjEiLCJjaXR5Q29kZSI6IjI4NyIsImNoYW5uZWwiOiJBcHBsZSBpT1MiLCJpZGVudGlmaWNhdGlvblR5cGUiOiIxIiwic2Vzc2lvbklkIjoiU0VTU0lPTl8yIiwiY29tbWVyY2UiOiJCYW5jbyIsImJpcnRoRGF0ZSI6IjE5OTItMDQtMDgiLCJzZXhDb2RlIjoiRiIsInJlZ2lvbkNvZGUiOiIxMyIsImlkZW50aWZpY2F0aW9uTnVtYmVyIjoiMTAwMDgxNDAiLCJsYXN0TmFtZTIiOiJHT05aQUxFWiIsImVtYWlsIjoiZmlncGVuYWdAZmFsYWJlbGxhLmNsIn0=",
+                "type": "text"
+              },
+              {
+                "key": "x-app-version",
+                "value": "20.0.0",
+                "type": "text"
+              },
+              {
+                "key": "x-customer-hash",
+                "value": "10008140_hash",
+                "type": "text"
+              },
+              {
+                "key": "X-Authorization",
+                "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkVBeXJ6SjdXZ1o0bjVSb3ZWamZjYWZzT3djTTNUa0pzRXBhd3FwcEZHVmc9IiwidHlwIjoiSldUIn0.eyJlbWFpbCI6IkNPUlJFT1BydWViYUBGQUxBQkVMTEEuQ0wiLCJzdXJuYW1lIjoiQVBFTExJRE9QQVQiLCJhZGRpdGlvbmFsU3VybmFtZSI6IkFQRUxMSURPTUFUIiwibmFtZXMiOiJKVUFOIExVQ0FTIiwiZG9jdW1lbnRUeXBlIjoiUlVUIiwiZG9jdW1lbnROdW1iZXIiOiIyMjM0NjA4NzkiLCJzZXNzaW9uSWQiOiIzRTYxQTdEQUYzNzc1NkRCQzMwNTcxRUFEQzA0MTY1QyIsImlzcyI6Imh0dHBzOi8vZ2F0ZXdheS1hcGktY2wtZ2NwLXNhd2VzdC0xLXVhdC1jaGlsZS1jZGF1eC5iZmNsLW5wLWdjcC1hbGZhLXNhd2VzdDEtcHJlcHJvZC5maWYudGVjaC9maWZjbC92MiIsImV4cCI6MTc1MTMxMDk0OCwiaWF0IjoxNzUxMzEwNjQ4fQ.pzq2t2q6zw7VLM8QdkWpQ7EmaoYofW_nOjYX2FaEbFO_9MNPfgqfewje3M9C_Ul5QMiFV_a-C9k5xjop1mFSno-5d8_W-qBjlpAizVqSIPqlhuyM9APEOS_IEpIyGIJDbewtJw0-ySjJPyxQLRUjACRoaXPsWqGwGw6jR_Yx3-xsxL2CcOk88bzoEf9h3UJ0fg2HOTy0yCS1i02-Cj0HUxJ3zu5ayHHGr8i50aoT4DqiM3brQu7AD60rSn7Rp8lJSkUlR0X5LYVuv5rcCRyGera0pBR02IFA_Tpb23woVM8J4qdP4g1DnK8TayW8SY2qe4jOqlvMx0xpc2DsM6cSvw",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-request-id",
+                "value": "1b679244-e95e-4062-9282-4583376b20da",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "cf-connecting-ip",
+                "value": "127.0.0.1",
+                "type": "text"
+              },
+              {
+                "key": "x-session-id",
+                "value": "SOME_SESSION_ID",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-app-platform",
+                "value": "123",
+                "type": "text"
+              },
+              {
+                "key": "version",
+                "value": "20.0.0",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\":\"SAVING_DAP\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://financial-product-groups-bff-any-liability-group-uat-peru-weuwx.bfpe-np-alfa-preprod.fif.tech/liability-group/v1/get-products",
+              "protocol": "https",
+              "host": [
+                "financial-product-groups-bff-any-liability-group-uat-peru-weuwx",
+                "bfpe-np-alfa-preprod",
+                "fif",
+                "tech"
+              ],
+              "path": [
+                "liability-group",
+                "v1",
+                "get-products"
+              ]
+            }
+          },
+          "_postman_previewlanguage": null,
+          "header": null,
+          "cookie": [],
+          "body": null
+        },
+        {
+          "name": "GET GROUPS AND BALANCE Peru Uat Copy",
+          "originalRequest": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-Channel",
+                "value": "Apple iOS",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-Commerce",
+                "value": "Banco",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "X-Country",
+                "value": "CL",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "User-Agent",
+                "value": "Fallabela/202304191630 CFNetwork/1402.0.8 Darwin/21.6.0",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-authenticated-userid",
+                "value": "eyJmaXNydE5hbWUiOiJQRURSTyBNSUdVRUwiLCJsYXN0TmFtZSI6IlBFUkVaIiwiY291bnRyeSI6IlBFIiwiYWRkcmVzcyI6IkV5emFndWlycmUiLCJkaXN0cmljdENvZGUiOiIyODciLCJhZGRyZXNzVHlwZSI6IjEiLCJjaXR5Q29kZSI6IjI4NyIsImNoYW5uZWwiOiJBcHBsZSBpT1MiLCJpZGVudGlmaWNhdGlvblR5cGUiOiIxIiwic2Vzc2lvbklkIjoiU0VTU0lPTl8yIiwiY29tbWVyY2UiOiJCYW5jbyIsImJpcnRoRGF0ZSI6IjE5OTItMDQtMDgiLCJzZXhDb2RlIjoiRiIsInJlZ2lvbkNvZGUiOiIxMyIsImlkZW50aWZpY2F0aW9uTnVtYmVyIjoiMTAwMDgxNDAiLCJsYXN0TmFtZTIiOiJHT05aQUxFWiIsImVtYWlsIjoiZmlncGVuYWdAZmFsYWJlbGxhLmNsIn0=",
+                "type": "text"
+              },
+              {
+                "key": "x-app-version",
+                "value": "20.0.0",
+                "type": "text"
+              },
+              {
+                "key": "x-customer-hash",
+                "value": "10008140_hash",
+                "type": "text"
+              },
+              {
+                "key": "X-Authorization",
+                "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkVBeXJ6SjdXZ1o0bjVSb3ZWamZjYWZzT3djTTNUa0pzRXBhd3FwcEZHVmc9IiwidHlwIjoiSldUIn0.eyJlbWFpbCI6IkNPUlJFT1BydWViYUBGQUxBQkVMTEEuQ0wiLCJzdXJuYW1lIjoiQVBFTExJRE9QQVQiLCJhZGRpdGlvbmFsU3VybmFtZSI6IkFQRUxMSURPTUFUIiwibmFtZXMiOiJKVUFOIExVQ0FTIiwiZG9jdW1lbnRUeXBlIjoiUlVUIiwiZG9jdW1lbnROdW1iZXIiOiIyMjM0NjA4NzkiLCJzZXNzaW9uSWQiOiIzRTYxQTdEQUYzNzc1NkRCQzMwNTcxRUFEQzA0MTY1QyIsImlzcyI6Imh0dHBzOi8vZ2F0ZXdheS1hcGktY2wtZ2NwLXNhd2VzdC0xLXVhdC1jaGlsZS1jZGF1eC5iZmNsLW5wLWdjcC1hbGZhLXNhd2VzdDEtcHJlcHJvZC5maWYudGVjaC9maWZjbC92MiIsImV4cCI6MTc1MTMxMDk0OCwiaWF0IjoxNzUxMzEwNjQ4fQ.pzq2t2q6zw7VLM8QdkWpQ7EmaoYofW_nOjYX2FaEbFO_9MNPfgqfewje3M9C_Ul5QMiFV_a-C9k5xjop1mFSno-5d8_W-qBjlpAizVqSIPqlhuyM9APEOS_IEpIyGIJDbewtJw0-ySjJPyxQLRUjACRoaXPsWqGwGw6jR_Yx3-xsxL2CcOk88bzoEf9h3UJ0fg2HOTy0yCS1i02-Cj0HUxJ3zu5ayHHGr8i50aoT4DqiM3brQu7AD60rSn7Rp8lJSkUlR0X5LYVuv5rcCRyGera0pBR02IFA_Tpb23woVM8J4qdP4g1DnK8TayW8SY2qe4jOqlvMx0xpc2DsM6cSvw",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-request-id",
+                "value": "1b679244-e95e-4062-9282-4583376b20da",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "cf-connecting-ip",
+                "value": "127.0.0.1",
+                "type": "text"
+              },
+              {
+                "key": "x-session-id",
+                "value": "SOME_SESSION_ID",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "x-app-platform",
+                "value": "123",
+                "type": "text"
+              },
+              {
+                "key": "version",
+                "value": "20.0.0",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\":\"SAVING_DAP\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://financial-product-groups-bff-any-liability-group-uat-peru-weuwx.bfpe-np-alfa-preprod.fif.tech/liability-group/v1/get-products",
+              "protocol": "https",
+              "host": [
+                "financial-product-groups-bff-any-liability-group-uat-peru-weuwx",
+                "bfpe-np-alfa-preprod",
+                "fif",
+                "tech"
+              ],
+              "path": [
+                "liability-group",
+                "v1",
+                "get-products"
+              ]
+            }
+          },
+          "_postman_previewlanguage": null,
+          "header": null,
+          "cookie": [],
+          "body": null
+        }
+      ]
+    },
+    {
+      "name": "GET BACKEND - PRODUCT GROUPS",
+      "protocolProfileBehavior": {
+        "disabledSystemHeaders": {
+          "connection": true,
+          "accept-encoding": true,
+          "accept": true,
+          "user-agent": true
+        }
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-app-version",
+            "value": "20.0.0",
+            "type": "text"
+          },
+          {
+            "key": "x-customer-hash",
+            "value": "10008140_hash",
+            "type": "text"
+          },
+          {
+            "key": "x-channel",
+            "value": "Mobile",
+            "type": "text"
+          },
+          {
+            "key": "x-session-id",
+            "value": "SOME_SESSION_ID",
+            "type": "text"
+          },
+          {
+            "key": "x-authenticated-useri",
+            "value": "eyJmaXNydE5hbWUiOiJQRURSTyBNSUdVRUwiLCJsYXN0TmFtZSI6IlBFUkVaIiwiY291bnRyeSI6IlBFIiwiYWRkcmVzcyI6IkV5emFndWlycmUiLCJkaXN0cmljdENvZGUiOiIyODciLCJhZGRyZXNzVHlwZSI6IjEiLCJjaXR5Q29kZSI6IjI4NyIsImNoYW5uZWwiOiJBcHBsZSBpT1MiLCJpZGVudGlmaWNhdGlvblR5cGUiOiIxIiwic2Vzc2lvbklkIjoiU0VTU0lPTl8yIiwiY29tbWVyY2UiOiJCYW5jbyIsImJpcnRoRGF0ZSI6IjE5OTItMDQtMDgiLCJzZXhDb2RlIjoiRiIsInJlZ2lvbkNvZGUiOiIxMyIsImlkZW50aWZpY2F0aW9uTnVtYmVyIjoiMTAwMDgxNDAiLCJsYXN0TmFtZTIiOiJHT05aQUxFWiIsImVtYWlsIjoiZmlncGVuYWdAZmFsYWJlbGxhLmNsIn0=",
+            "type": "text"
+          },
+          {
+            "key": "content-Type",
+            "value": "application/json",
+            "type": "text"
+          },
+          {
+            "key": "Content-Length",
+            "value": "<calculated when request is sent>",
+            "type": "text"
+          },
+          {
+            "key": "x-country",
+            "value": "PE",
+            "type": "text"
+          },
+          {
+            "key": "x.commerce",
+            "value": "BANCO",
+            "type": "text"
+          },
+          {
+            "key": "X-request-id",
+            "value": "UUID",
+            "type": "text"
+          },
+          {
+            "key": "x-forwarded-for",
+            "value": "127.0.0.1",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://integracion-bfpe-qa.fif.tech/customer-360-cdp/v1/customers/10008140/product-groups-overview?group=SAVING,PAC&currency=PEN,USD&sortDate=asc",
+          "protocol": "https",
+          "host": [
+            "integracion-bfpe-qa",
+            "fif",
+            "tech"
+          ],
+          "path": [
+            "customer-360-cdp",
+            "v1",
+            "customers",
+            "10008140",
+            "product-groups-overview"
+          ],
+          "query": [
+            {
+              "key": "group",
+              "value": "SAVING,PAC"
+            },
+            {
+              "key": "currency",
+              "value": "PEN,USD"
+            },
+            {
+              "key": "sortDate",
+              "value": "asc"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET BACKEND - PRODUCT GROUPS Copy",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-app-version",
+            "value": "",
+            "type": "text"
+          },
+          {
+            "key": "x-customer-hash",
+            "value": "",
+            "type": "text"
+          },
+          {
+            "key": "x-channel",
+            "value": "",
+            "type": "text"
+          },
+          {
+            "key": "x-session-id",
+            "value": "",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://financial-product-groups-bff-any-liability-group-uat-peru-weuwx.bfpe-np-alfa-preprod.fif.tech/liability-group/v1/get-products",
+          "protocol": "https",
+          "host": [
+            "financial-product-groups-bff-any-liability-group-uat-peru-weuwx",
+            "bfpe-np-alfa-preprod",
+            "fif",
+            "tech"
+          ],
+          "path": [
+            "liability-group",
+            "v1",
+            "get-products"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
